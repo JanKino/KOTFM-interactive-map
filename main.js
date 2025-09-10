@@ -1,4 +1,4 @@
- import { createSegmentBlock, showSegmentList, showSegmentDetails, initSegment} from './segments.js';
+ import {showSegmentList, initSegment, ActiveSegment, closeSegment, normalSegmentView, selectedSegmentView} from './segments.js';
 
     // Kaart maken
     const map = L.map('map');
@@ -12,11 +12,9 @@
     let allLatLngs = [];
     let allBounds = null;
     let segmentCache = [];
-    let activeSegment = null;
 
-    function setActiveSegment(seg){
-      activeSegment = seg;
-    }
+    const activeSegment = new ActiveSegment(null);
+    
 
     function segmentInView(seg, bounds){
       const latlngs = polyline.decode(seg.map.polyline);
@@ -25,12 +23,20 @@
 
     // update segmentlijst bij verschuiven/zoomen van kaart
     map.on("moveend", () => {
-      if(!activeSegment){
+      if(!activeSegment.getActive()){
         const currentBounds = map.getBounds();
         const visibleSegments = segmentCache.filter(seg => segmentInView(seg, currentBounds));
-        showSegmentList(visibleSegments, map, setActiveSegment);
+        showSegmentList(visibleSegments, map, activeSegment);
       }
-      
+
+      segmentCache.forEach(seg => {
+          if(seg !== activeSegment.getActive()){
+            normalSegmentView(seg, map);
+          }
+          else{
+            selectedSegmentView(seg, map);
+          }
+      });
     });
 
     fetch("data/segmenten.json")
@@ -48,18 +54,14 @@
             const latlngs = polyline.decode(seg.map.polyline);
             allLatLngs.push(...latlngs); // voegt alle punten samen
 
-            initSegment(seg, map, latlngs, setActiveSegment);
+            initSegment(seg, map, latlngs, activeSegment);
         });
         allBounds = L.latLngBounds(allLatLngs);
         map.fitBounds(allBounds);
-        showSegmentList(segmentCache, map, setActiveSegment);
+        showSegmentList(segmentCache, map, activeSegment);
     });
     document.getElementById("close-btn").addEventListener("click", () => {
-      document.getElementById("sidebar").classList.remove("active");
-      activeSegment = null;
-      document.getElementById("sidebar-header").style.display = "none"; // header verbergen
-      showSegmentList(segmentCache, map, setActiveSegment);
-      if (allBounds) {
-        map.fitBounds(allBounds, { padding: [25, 25], animate: true });
-      }
+
+      closeSegment(activeSegment, map, segmentCache, allBounds);
+      
     });

@@ -29,7 +29,7 @@
     /* Sidebar container */
     #sidebar {
       flex: 0 0 25%;       /* breedte */
-      background: #f2f2f7;   /* lichtgrijs achtergrond */
+      background: #ffffff;   /* lichtgrijs achtergrond */
       border-left: 1px solid #ccc;
       padding: 1rem 1.5rem;
       overflow-y: auto;
@@ -106,15 +106,9 @@
       transition: border 0.2s;
     }
 
-    .segment-block:hover {
-      border: 4px solid #c00; /* dikkere rode rand */
-    }
-
     .segment-block.hover {
       border: 4px solid #c00; /* dikkere rode rand */
     }
-
-
 
   </style>
 </head>
@@ -131,6 +125,8 @@
 
   <!-- Leaflet JS -->
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <script src="https://unpkg.com/leaflet-polylinedecorator@1.7.0/dist/leaflet.polylineDecorator.min.js"></script>
 
   <script type="module" src="./main.js"></script>
 </body>

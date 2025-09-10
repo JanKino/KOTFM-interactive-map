@@ -480,6 +480,7 @@
       "pr_activity_visibility": null,
       "effort_count": 0
     },
+    "ourKOM": true,
     "xoms": {
       "kom": "1:12",
       "qom": "1:43",
