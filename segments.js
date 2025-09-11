@@ -118,7 +118,7 @@ function highlightSegment(seg, map){
 export function normalSegmentView(seg, map){
     seg.shadowLine.setStyle({ opacity: 0 });
     const zoom = map.getZoom();
-    const baseWeight = Math.max(2, (zoom - 8));
+    const baseWeight = Math.max(2, (zoom - 8))*seg.style.baseWeightFactor;
 
     seg.block.classList.remove("hover");
 
@@ -156,7 +156,9 @@ function getSegmentStyle(seg) {
             icon_size_0 : [28,28],
             icon_size_1 : [32,32],
             icon_anchor_0: [14,14],
-            icon_anchor_1: [16,16]
+            icon_anchor_1: [16,16],
+            baseWeightFactor: 1.5,
+            line_opacity: 0.9,
         };
     } else {
         return {
@@ -166,7 +168,9 @@ function getSegmentStyle(seg) {
             icon_size_0 : [24,24],
             icon_size_1 : [28,28],
             icon_anchor_0: [12,12],
-            icon_anchor_1: [14,14]
+            icon_anchor_1: [14,14],
+            baseWeightFactor: 1,
+            line_opacity: 0.7
         };
     }
 }
@@ -177,6 +181,7 @@ export function initSegment(seg, map, latlngs, activeSegment){
     seg.block = block;
 
     const style = getSegmentStyle(seg);
+    seg.style = style
 
     const shadowLine = L.polyline(latlngs, {
         color: style.line_edge_color,
@@ -187,7 +192,7 @@ export function initSegment(seg, map, latlngs, activeSegment){
     const visibleLine = L.polyline(latlngs, { 
         color: style.line_color,      // kleur
         weight: 6,         // dikte in pixels
-        opacity: 0.8,      // transparantie
+        opacity: seg.style.line_opacity,      // transparantie
     }).addTo(map);
 
     console.log("PolylineDecorator available?", L.polylineDecorator);
