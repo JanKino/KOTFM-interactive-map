@@ -41,6 +41,25 @@
       color: #333;
       box-shadow: -3px 0 8px rgba(0,0,0,0.1);
       overflow-y: auto;
+      transition: flex 0.3s;
+      flex-direction: column;
+    }
+
+    #sidebar.list-mode {
+      flex: 0 0 300px;
+    }
+
+    #sidebar.list-mode #sidebar-header {
+      display: none;
+    }
+
+    /* Detailsmodus: breder, header zichtbaar */
+    #sidebar.details-mode {
+      flex: 0 0 400px;
+    }
+
+    #sidebar.details-mode #sidebar-header {
+      display: flex;
     }
 
     #sidebar.active {
@@ -115,7 +134,7 @@
 <body>
   <div id="map"></div>
   <div id="sidebar">
-    <header id="sidebar-header" style="display:none;">
+    <header id="sidebar-header">
       <h2>Segment Details</h2>
       <button id="close-btn">✖</button>
   </header>

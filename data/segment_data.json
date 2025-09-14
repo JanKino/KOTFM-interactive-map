@@ -1,0 +1,4887 @@
+[
+  {
+    "id": 21705672,
+    "resource_state": 3,
+    "name": "Varent",
+    "activity_type": "Ride",
+    "distance": 1035.27,
+    "average_grade": 5.8,
+    "maximum_grade": 11.9,
+    "elevation_high": 93.6,
+    "elevation_low": 30.0,
+    "start_latlng": [
+      50.819415,
+      3.671687
+    ],
+    "end_latlng": [
+      50.828293,
+      3.674042
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/UIERS7LC5UYZD4P5MWK7ANMDUBADCOZYJBOYMD3JP6BFJW4MTCYT5NCDIRYDJUZXEARLMBYVD7E5CTJTLNEQU45U",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/UIERS7LC5UYZD4P5MWK7ANMDUBADCOZYJBOYMD3JP6BFJW4MTCYT5NCDIRYDJUZXEARLMBYVD7E5CTJTLNEQU45U",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/3VMIGT4RHR4IPSNTDOJ7KVMJ2XDYCJWNYZBD7OA7CHYC2DIY2KYLLIUCUZPCCL5ONSDS7W63YXUXG4L7AMJIAZPM"
+    },
+    "climb_category": 0,
+    "city": "Maarkedal",
+    "state": "Vlaanderen",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2019-09-05T14:19:05Z",
+    "updated_at": "2024-12-02T13:28:42Z",
+    "total_elevation_gain": 63.6,
+    "map": {
+      "id": "s21705672",
+      "polyline": "ktduH{blUs@u@m@UuFk@c@Q{CcCcEaCYKwAWyEu@[FqCx@UGwEoBeA[g@EQD_B|@e@Nc@R",
+      "resource_state": 3
+    },
+    "effort_count": 74912,
+    "athlete_count": 30466,
+    "star_count": 1876,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 213,
+      "pr_date": "2018-05-02",
+      "pr_visibility": "only_me",
+      "pr_activity_id": 1561623718,
+      "pr_activity_visibility": "only_me",
+      "effort_count": 4
+    },
+    "xoms": {
+      "kom": "1:46",
+      "qom": "2:25",
+      "overall": "1:46",
+      "destination": {
+        "href": "strava://segments/21705672/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 34892467,
+      "title": "Lander Soens",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/34892467/10838934/2/large.jpg",
+      "effort_description": "8 efforts in the last 90 days",
+      "effort_count": "8",
+      "effort_counts": {
+        "overall": "8 efforts",
+        "female": "3 efforts"
+      },
+      "destination": "strava://segments/21705672/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Varent",
+      "segment_id": 21705672,
+      "ourKOM": "Ja",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 20023906,
+    "resource_state": 3,
+    "name": "Valkenberg",
+    "activity_type": "Ride",
+    "distance": 577.517,
+    "average_grade": 7.2,
+    "maximum_grade": 11.1,
+    "elevation_high": 88.5,
+    "elevation_low": 44.6,
+    "start_latlng": [
+      50.811253,
+      3.759164
+    ],
+    "end_latlng": [
+      50.81505,
+      3.75383
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/A33ZY2S26MYSSN4PXNPBDCFLQKUIQEVBATVMDZMK4BFYW3ZFCE2DQQHZUMSP36CY5YQI2ITSBLGQLLO7TWZKDO3O",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/A33ZY2S26MYSSN4PXNPBDCFLQKUIQEVBATVMDZMK4BFYW3ZFCE2DQQHZUMSP36CY5YQI2ITSBLGQLLO7TWZKDO3O",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/C4OOJQRY3SQBKBTRER2UBPZB7DZXMRNEUHVBIBYETWSIT2LE7VFY2YTYLDK3NV4VNZXF5YZ5ZUURSYHMU4HDTALA"
+    },
+    "climb_category": 0,
+    "city": "Brakel",
+    "state": "Vlaanderen",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2019-03-08T13:23:45Z",
+    "updated_at": "2024-12-02T14:30:03Z",
+    "total_elevation_gain": 43.9,
+    "map": {
+      "id": "s20023906",
+      "polyline": "gacuHse}UyAv@a@Xi@h@eAhCsBnF]x@c@j@c@b@]n@o@|B_@`AW^cBnAgAhA",
+      "resource_state": 3
+    },
+    "effort_count": 260650,
+    "athlete_count": 89704,
+    "star_count": 1910,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 71,
+      "pr_date": "2023-05-28",
+      "pr_visibility": "everyone",
+      "pr_activity_id": 9157869347,
+      "pr_activity_visibility": "everyone",
+      "effort_count": 68
+    },
+    "xoms": {
+      "kom": "55s",
+      "qom": "1:21",
+      "overall": "55s",
+      "destination": {
+        "href": "strava://segments/20023906/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 62173526,
+      "title": "Matthias Lemmens",
+      "profile": "https://graph.facebook.com/10157585410796947/picture?height=256&width=256",
+      "effort_description": "23 efforts in the last 90 days",
+      "effort_count": "23",
+      "effort_counts": {
+        "overall": "23 efforts",
+        "female": "18 efforts"
+      },
+      "destination": "strava://segments/20023906/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Valkenberg",
+      "segment_id": 20023906,
+      "ourKOM": "nee",
+      "attempted": "ja",
+      "ourTime": "0:57",
+      "attempts": [
+        {
+          "poging_nr": 1,
+          "posts": [
+            {
+              "post_id": 1,
+              "naam_segment": "valkenberg",
+              "instagram_link": "https://www.instagram.com/p/DJFAYOgsF3V/",
+              "segment_id": 20023906,
+              "poging_nr": 1,
+              "beschrijving": "intro before attempt",
+              "fail_succes": "fail",
+              "volgorde": 1
+            },
+            {
+              "post_id": 2,
+              "naam_segment": "valkenberg",
+              "instagram_link": "https://www.instagram.com/p/DJFAyrgMcUY/",
+              "segment_id": 20023906,
+              "poging_nr": 1,
+              "beschrijving": "after attempt",
+              "fail_succes": "fail",
+              "volgorde": 2
+            }
+          ]
+        },
+        {
+          "poging_nr": 2,
+          "posts": [
+            {
+              "post_id": 12,
+              "naam_segment": "Valkenberg",
+              "instagram_link": "https://www.instagram.com/p/DJgyhcnspsZ/",
+              "segment_id": 20023906,
+              "poging_nr": 2,
+              "beschrijving": "before the 2nd Valkenberg attempt",
+              "fail_succes": "succes",
+              "volgorde": 1
+            },
+            {
+              "post_id": 13,
+              "naam_segment": "Valkenberg",
+              "instagram_link": "https://www.instagram.com/p/DJhimSQO6TK/",
+              "segment_id": 20023906,
+              "poging_nr": 2,
+              "beschrijving": "KOM attempt on board",
+              "fail_succes": "succes",
+              "volgorde": 2
+            },
+            {
+              "post_id": 14,
+              "naam_segment": "Valkenberg",
+              "instagram_link": "https://www.instagram.com/p/DJg5uUHMcIW/",
+              "segment_id": 20023906,
+              "poging_nr": 2,
+              "beschrijving": "post attempt power analysis",
+              "fail_succes": "succes",
+              "volgorde": 3
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": 19651389,
+    "resource_state": 3,
+    "name": "Kortendries",
+    "activity_type": "Ride",
+    "distance": 2532.23,
+    "average_grade": 3.1,
+    "maximum_grade": 9.7,
+    "elevation_high": 88.3,
+    "elevation_low": 23.2,
+    "start_latlng": [
+      50.861339,
+      3.770628
+    ],
+    "end_latlng": [
+      50.846946,
+      3.779104
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/77EJTCTJGG5AOXXOSOGQOF7DDUTMWCYKPSC35BGM3U34DU4OEVMCLRPF2QHEKRZM4ZUJAY5RX2O7CGQUU62YIWQ=",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/77EJTCTJGG5AOXXOSOGQOF7DDUTMWCYKPSC35BGM3U34DU4OEVMCLRPF2QHEKRZM4ZUJAY5RX2O7CGQUU62YIWQ=",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/STN7ZS6YBKOIXGI3SBYOWW7ZXCKMJOWKFAY446XJGUPJEWJN7RXAZXBTMRIZXLPJMPUVWVTVOK4T6YT42FROOJQ="
+    },
+    "climb_category": 0,
+    "city": "Zottegem",
+    "state": "Vlaanderen",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2019-01-10T08:56:42Z",
+    "updated_at": "2024-12-02T14:28:12Z",
+    "total_elevation_gain": 86.2,
+    "map": {
+      "id": "s19651389",
+      "polyline": "kzluHmm_VPcAEkAS{Bo@oEI{@RY^Yz@k@hC{AxBkBpCqB|CuBjAiAzBiB`AkAx@uA|@gANFLRFr@ErAb@xE`@lF^|@f@x@XhAZfBt@nCzAi@xAq@hBcBzA}A|AuAtAeANALHrAjDXG^_@l@{@ZsC\\uEFkCYkCPsAd@k@vDiBTEF?HJb@bANPP@NALI^c@RMd@IbC?n@IlAYv@Y",
+      "resource_state": 3
+    },
+    "effort_count": 20820,
+    "athlete_count": 9903,
+    "star_count": 1716,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 480,
+      "pr_date": "2024-12-10",
+      "pr_visibility": "everyone",
+      "pr_activity_id": 13084840092,
+      "pr_activity_visibility": "everyone",
+      "effort_count": 1
+    },
+    "xoms": {
+      "kom": "4:10",
+      "qom": "4:49",
+      "overall": "4:10",
+      "destination": {
+        "href": "strava://segments/19651389/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 17085260,
+      "title": "Frederic Gerniers",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/17085260/4801240/4/large.jpg",
+      "effort_description": "11 efforts in the last 90 days",
+      "effort_count": "11",
+      "effort_counts": {
+        "overall": "11 efforts",
+        "female": "3 efforts"
+      },
+      "destination": "strava://segments/19651389/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Kortendries",
+      "segment_id": 19651389,
+      "ourKOM": "Ja",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": [
+        {
+          "poging_nr": 1,
+          "posts": [
+            {
+              "post_id": 3,
+              "naam_segment": "kortendries",
+              "instagram_link": "https://www.instagram.com/p/DJPFXmFsf6B/",
+              "segment_id": 19651389,
+              "poging_nr": 1,
+              "beschrijving": "intro before attempt",
+              "fail_succes": "succes",
+              "volgorde": 1
+            },
+            {
+              "post_id": 4,
+              "naam_segment": "kortendries",
+              "instagram_link": "https://www.instagram.com/p/DJPF0I_MNSx/",
+              "segment_id": 19651389,
+              "poging_nr": 1,
+              "beschrijving": "checking the wind before attempt",
+              "fail_succes": "succes",
+              "volgorde": 2
+            },
+            {
+              "post_id": 5,
+              "naam_segment": "kortendries",
+              "instagram_link": "https://www.instagram.com/p/DJPKRYqNGht/",
+              "segment_id": 19651389,
+              "poging_nr": 1,
+              "beschrijving": "second intro before attempt",
+              "fail_succes": "succes",
+              "volgorde": 3
+            },
+            {
+              "post_id": 6,
+              "naam_segment": "kortendries",
+              "instagram_link": "https://www.instagram.com/p/DJPY1YhNacM/",
+              "segment_id": 19651389,
+              "poging_nr": 1,
+              "beschrijving": "checking the results",
+              "fail_succes": "succes",
+              "volgorde": 4
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": 2599084,
+    "resource_state": 3,
+    "name": "Kapelleberg Climb",
+    "activity_type": "Ride",
+    "distance": 1192.73,
+    "average_grade": 5.3,
+    "maximum_grade": 10.1,
+    "elevation_high": 119.9,
+    "elevation_low": 56.3,
+    "start_latlng": [
+      50.818678,
+      3.660295
+    ],
+    "end_latlng": [
+      50.826803,
+      3.652565
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/NWM2HK5DLHOKUSFFLUKTYHCDB5KLV2PA5EFFAQ2CMDFYGCSKTQ7KJZCGRGN2GADCRSOJVDVH3ZU4KKVPOQC7FUQ=",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/NWM2HK5DLHOKUSFFLUKTYHCDB5KLV2PA5EFFAQ2CMDFYGCSKTQ7KJZCGRGN2GADCRSOJVDVH3ZU4KKVPOQC7FUQ=",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/X6TFXRIYZZVMOQ7LGYTNX7MF2DHBJC4JPPH5SH36AUPO4BA2KHM67FFZYDKEBCCBI3KBHUTHUMESQ4XQWSOFBAI="
+    },
+    "climb_category": 0,
+    "city": "Maarkedal",
+    "state": "Vlaams Gewest",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2012-10-19T05:03:46Z",
+    "updated_at": "2021-05-19T08:02:12Z",
+    "total_elevation_gain": 63.529,
+    "map": {
+      "id": "s2599084",
+      "polyline": "uoduHy{iUgApFe@t@sBvAg@bAu@bHs@bB{@v@aAbAa@p@{@`AoCvBc@VWX_@fA]vAYxA]dAa@VaCQa@S]C{@ToBNw@GmAWuAK{AC",
+      "resource_state": 3
+    },
+    "effort_count": 31180,
+    "athlete_count": 17415,
+    "star_count": 50,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 311,
+      "pr_date": "2018-05-02",
+      "pr_visibility": "only_me",
+      "pr_activity_id": 1561623718,
+      "pr_activity_visibility": "only_me",
+      "effort_count": 1
+    },
+    "xoms": {
+      "kom": "2:29",
+      "qom": "2:55",
+      "overall": "2:29",
+      "destination": {
+        "href": "strava://segments/2599084/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 24718437,
+      "title": "Robbe Verhaeghe",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/24718437/7117182/6/large.jpg",
+      "effort_description": "22 efforts in the last 90 days",
+      "effort_count": "22",
+      "effort_counts": {
+        "overall": "22 efforts",
+        "female": "3 efforts"
+      },
+      "destination": "strava://segments/2599084/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Kapelleberg climb",
+      "segment_id": 2599084,
+      "ourKOM": "ja",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 19747597,
+    "resource_state": 3,
+    "name": "Kluisberg",
+    "activity_type": "Ride",
+    "distance": 1008.9,
+    "average_grade": 6.7,
+    "maximum_grade": 27.2,
+    "elevation_high": 103.8,
+    "elevation_low": 35.8,
+    "start_latlng": [
+      50.765911,
+      3.48511
+    ],
+    "end_latlng": [
+      50.758096,
+      3.482137
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/JPPAFMSXXWQNVD73OKDG4Q7DXYGHZQLXFMJTNPVL45QDZWEXO6TZS32BXSFYFFFDXMJWPA36OQQB64C5SRAGD353",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/JPPAFMSXXWQNVD73OKDG4Q7DXYGHZQLXFMJTNPVL45QDZWEXO6TZS32BXSFYFFFDXMJWPA36OQQB64C5SRAGD353",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/P52JVA7NQSRF37CA3XZOFXF2BWZZNDOWNEXZNG3UO73TLEN7W5AHZ3RAKSRPARXTWZNTBJYTMXKIXCBOCQENFZMD"
+    },
+    "climb_category": 0,
+    "city": "Kluisbergen",
+    "state": "Vlaanderen",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2019-01-25T12:44:21Z",
+    "updated_at": "2021-05-20T08:04:57Z",
+    "total_elevation_gain": 68.0,
+    "map": {
+      "id": "s19747597",
+      "polyline": "}eztH}tgTfA{@p@YXIVCfA@VETI|@e@HAJBPPVb@jBhEVZZNZ@n@AjBMhFu@p@D`@NjAz@`Af@`AX`AVLFDPCbBBLJXFJx@r@pBnB",
+      "resource_state": 3
+    },
+    "effort_count": 92889,
+    "athlete_count": 33830,
+    "star_count": 431,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 176,
+      "pr_date": "2022-08-28",
+      "pr_visibility": "everyone",
+      "pr_activity_id": 7716211100,
+      "pr_activity_visibility": "everyone",
+      "effort_count": 4
+    },
+    "xoms": {
+      "kom": "1:47",
+      "qom": "2:22",
+      "overall": "1:47",
+      "destination": {
+        "href": "strava://segments/19747597/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 116409630,
+      "title": "Toson (The )",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/116409630/26989663/14/large.jpg",
+      "effort_description": "24 efforts in the last 90 days",
+      "effort_count": "24",
+      "effort_counts": {
+        "overall": "24 efforts",
+        "female": "16 efforts"
+      },
+      "destination": "strava://segments/19747597/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Kluisberg",
+      "segment_id": 19747597,
+      "ourKOM": "Ja",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 19976280,
+    "resource_state": 3,
+    "name": "Ladeuze",
+    "activity_type": "Ride",
+    "distance": 1038.07,
+    "average_grade": 5.8,
+    "maximum_grade": 12.3,
+    "elevation_high": 83.0,
+    "elevation_low": 19.2,
+    "start_latlng": [
+      50.819145,
+      3.62494
+    ],
+    "end_latlng": [
+      50.827826,
+      3.629356
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/K3USB4QEAR2RTSIKX3ZR27N5ZTPX7QYVACVPRLCLDJ7FHXZPD5IEM2QS25MFEUBGM7OAOAC4ULRAZQR7QKVCBKY=",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/K3USB4QEAR2RTSIKX3ZR27N5ZTPX7QYVACVPRLCLDJ7FHXZPD5IEM2QS25MFEUBGM7OAOAC4ULRAZQR7QKVCBKY=",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/ZNX57ESEUQA33DFVULYLDPBD7THF6G35RUEGUBQZSHXCQFUF3524AAJOIZYYYDYSOLZXXZQN4GO7CNKPCST447A="
+    },
+    "climb_category": 0,
+    "city": "Maarkedal",
+    "state": "Vlaanderen",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2019-03-01T17:15:53Z",
+    "updated_at": "2024-12-02T14:36:13Z",
+    "total_elevation_gain": 63.8,
+    "map": {
+      "id": "s19976280",
+      "polyline": "srduH}~bUoBuBm@e@mEuAwA}@uCuB{Aa@qBIq@_A{AaBeMmG{@M}@E_AFqC\\",
+      "resource_state": 3
+    },
+    "effort_count": 102849,
+    "athlete_count": 35484,
+    "star_count": 2301,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 249,
+      "pr_date": "2025-07-10",
+      "pr_visibility": "everyone",
+      "pr_activity_id": 15068064725,
+      "pr_activity_visibility": "everyone",
+      "effort_count": 1
+    },
+    "xoms": {
+      "kom": "1:51",
+      "qom": "2:24",
+      "overall": "1:51",
+      "destination": {
+        "href": "strava://segments/19976280/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 3991196,
+      "title": "Alex Howarth",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/3991196/12565370/5/large.jpg",
+      "effort_description": "10 efforts in the last 90 days",
+      "effort_count": "10",
+      "effort_counts": {
+        "overall": "10 efforts",
+        "female": "8 efforts"
+      },
+      "destination": "strava://segments/19976280/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Ladeuze",
+      "segment_id": 19976280,
+      "ourKOM": "Ja",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 1057617,
+    "resource_state": 3,
+    "name": "Tenbosse",
+    "activity_type": "Ride",
+    "distance": 484.279,
+    "average_grade": 6.1,
+    "maximum_grade": 10.0,
+    "elevation_high": 70.0,
+    "elevation_low": 40.4,
+    "start_latlng": [
+      50.80004741437733,
+      3.7670799996703863
+    ],
+    "end_latlng": [
+      50.79671133309603,
+      3.7714477255940437
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/FDSZUK2C6RH4PSQJPIPY67XLWI3U4IU6ICC6RIBBZTCYVED6JMO5E5ZEALIZYK5TWE7E3RV4JOO6TIYWUPUZDHUX",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/FDSZUK2C6RH4PSQJPIPY67XLWI3U4IU6ICC6RIBBZTCYVED6JMO5E5ZEALIZYK5TWE7E3RV4JOO6TIYWUPUZDHUX",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/ZSEPTI4VRNPB5XRS6QU5EP5J4RXWJ7AENUZF5NFEWSHG6QWYIBTTW3VU4EYVFJWZV3TQBMOMH4N7KEPEBA4XCSR6"
+    },
+    "climb_category": 0,
+    "city": "Brakel",
+    "state": "Vlaams Gewest",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2012-03-06T20:26:16Z",
+    "updated_at": "2021-05-18T08:02:41Z",
+    "total_elevation_gain": 29.6,
+    "map": {
+      "id": "s1057617",
+      "polyline": "g{`uHgw~U|AuCb@s@rCyCb@i@nA}Bl@oAd@w@`ByBxAyA",
+      "resource_state": 3
+    },
+    "effort_count": 117685,
+    "athlete_count": 53075,
+    "star_count": 46,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 68,
+      "pr_date": "2018-07-10",
+      "pr_visibility": "everyone",
+      "pr_activity_id": 1711585618,
+      "pr_activity_visibility": "everyone",
+      "effort_count": 22
+    },
+    "xoms": {
+      "kom": "43s",
+      "qom": "1:05",
+      "overall": "43s",
+      "destination": {
+        "href": "strava://segments/1057617/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 9342484,
+      "title": "Chris van Twembeke",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/9342484/27195661/4/large.jpg",
+      "effort_description": "30 efforts in the last 90 days",
+      "effort_count": "30",
+      "effort_counts": {
+        "overall": "30 efforts",
+        "female": "3 efforts"
+      },
+      "destination": "strava://segments/1057617/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Tenbosse",
+      "segment_id": 1057617,
+      "ourKOM": "Ja",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 17389313,
+    "resource_state": 3,
+    "name": "Kortekeer",
+    "activity_type": "Ride",
+    "distance": 1086.1,
+    "average_grade": 5.9,
+    "maximum_grade": 19.4,
+    "elevation_high": 87.1,
+    "elevation_low": 22.7,
+    "start_latlng": [
+      50.800949,
+      3.576982
+    ],
+    "end_latlng": [
+      50.795753,
+      3.588342
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/P3Y2ESITDUVUWLNN2GJB643KSDSPFYKKETDZ5Z24DSWIUJMRNMN2L7JRUM3EKPZOKTMCD7QL5HUQ7PFB26RAEAA=",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/P3Y2ESITDUVUWLNN2GJB643KSDSPFYKKETDZ5Z24DSWIUJMRNMN2L7JRUM3EKPZOKTMCD7QL5HUQ7PFB26RAEAA=",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/LOAYUT2PSH3JWVVEJ3B3KYYPS7CCIJY6AU5LRD5IKM7PTZRO2Q3A2MPB7EZTC3KQNDLMYOAHUVBOARSC2EV4OLI="
+    },
+    "climb_category": 0,
+    "city": "Kluisbergen",
+    "state": "Vlaanderen",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2018-04-14T16:06:03Z",
+    "updated_at": "2021-05-20T08:04:35Z",
+    "total_elevation_gain": 64.4,
+    "map": {
+      "id": "s17389313",
+      "polyline": "{`auHcsyTGq@Kq@Mk@]iAA_@JY`EsHhAgB|@}BnAkEhAyCVe@hAgBdA_Cx@eAFQH]Ba@MgA?_@EWBKRSBIJKv@w@p@i@V]J]DaAFg@Le@lBaCz@_A",
+      "resource_state": 3
+    },
+    "effort_count": 117039,
+    "athlete_count": 37673,
+    "star_count": 51,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 171,
+      "pr_date": "2021-05-01",
+      "pr_visibility": "everyone",
+      "pr_activity_id": 5224793314,
+      "pr_activity_visibility": "everyone",
+      "effort_count": 6
+    },
+    "xoms": {
+      "kom": "1:57",
+      "qom": "2:30",
+      "overall": "1:57",
+      "destination": {
+        "href": "strava://segments/17389313/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 2433552,
+      "title": "Bjorn De Decker",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/2433552/765011/13/large.jpg",
+      "effort_description": "16 efforts in the last 90 days",
+      "effort_count": "16",
+      "effort_counts": {
+        "overall": "16 efforts",
+        "female": "5 efforts"
+      },
+      "destination": "strava://segments/17389313/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Kortekeer",
+      "segment_id": 17389313,
+      "ourKOM": "Ja",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 18136204,
+    "resource_state": 3,
+    "name": "Foreest",
+    "activity_type": "Ride",
+    "distance": 1717.9,
+    "average_grade": 3.9,
+    "maximum_grade": 17.7,
+    "elevation_high": 104.4,
+    "elevation_low": 37.1,
+    "start_latlng": [
+      50.806262,
+      3.681617
+    ],
+    "end_latlng": [
+      50.801505,
+      3.699782
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/Q47ACV7WMDUSRIO5H5BHUXIVO4XTHVBGH7JFTIVD5JCWFVPK4DG4VGIKYTARYBHALNC4OWQXLS3JHNYIBUD2D4I=",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/Q47ACV7WMDUSRIO5H5BHUXIVO4XTHVBGH7JFTIVD5JCWFVPK4DG4VGIKYTARYBHALNC4OWQXLS3JHNYIBUD2D4I=",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/UJ6FJG7GC5VJMZJTIHSNKV3KFNBAEDHXGDXWVUFMOQIHOSKYB625IMDJIKL5U6LOA2GWR3Z2HZBS6WC4ME7JPPI="
+    },
+    "climb_category": 0,
+    "city": "Horebeke",
+    "state": "Vlaanderen",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2018-07-04T16:07:04Z",
+    "updated_at": "2021-05-20T08:04:43Z",
+    "total_elevation_gain": 67.3,
+    "map": {
+      "id": "s18136204",
+      "polyline": "cbbuHaanU?yA@OTu@`AeCH[`@iE`@}Cv@cKh@_DNm@l@}AVc@\\g@r@YF?d@Gn@]f@CLD\\^j@t@DDP@Z_@T]TYPWv@eBPSTc@b@eA@OCi@A}@Bk@He@z@}Cp@iBLk@Hy@Nq@~@eG`@{AjByDRw@@i@KIqAeCqAyBeAaC{AcF",
+      "resource_state": 3
+    },
+    "effort_count": 41924,
+    "athlete_count": 22167,
+    "star_count": 74,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 264,
+      "pr_date": "2021-06-11",
+      "pr_visibility": "everyone",
+      "pr_activity_id": 5451902535,
+      "pr_activity_visibility": "everyone",
+      "effort_count": 2
+    },
+    "xoms": {
+      "kom": "3:08",
+      "qom": "4:26",
+      "overall": "3:08",
+      "destination": {
+        "href": "strava://segments/18136204/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 23140607,
+      "title": "Gratien Cosijns",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/23140607/6728835/5/large.jpg",
+      "effort_description": "5 efforts in the last 90 days",
+      "effort_count": "5",
+      "effort_counts": {
+        "overall": "5 efforts",
+        "female": "2 efforts"
+      },
+      "destination": "strava://segments/18136204/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Foreest",
+      "segment_id": 18136204,
+      "ourKOM": "Ja",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 5515466,
+    "resource_state": 3,
+    "name": "Volkegemberg",
+    "activity_type": "Ride",
+    "distance": 691.1,
+    "average_grade": 5.6,
+    "maximum_grade": 11.0,
+    "elevation_high": -101.0,
+    "elevation_low": -142.0,
+    "start_latlng": [
+      50.840984,
+      3.635216
+    ],
+    "end_latlng": [
+      50.838494,
+      3.643864
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/25PWQS2JK2N5KA7BASK27ZAQMLTMGDY7CHMPC6VUA7G4A3UOXRLDAY7JFXBSOBCR3CGEBPARFTPUU6KFX4CJRVY=",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/25PWQS2JK2N5KA7BASK27ZAQMLTMGDY7CHMPC6VUA7G4A3UOXRLDAY7JFXBSOBCR3CGEBPARFTPUU6KFX4CJRVY=",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/JTY2CHH5UNVK6SFRXLHWLSILAO5OZ5KC5CJIWS4JWU7S53DJO63SRFDVGKWTKNZMGIDKH2OZZXQFCAZGFWH3ZJQ="
+    },
+    "climb_category": 0,
+    "city": "Oudenaarde",
+    "state": "Flanders",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2013-09-16T18:25:42Z",
+    "updated_at": "2021-05-19T08:02:34Z",
+    "total_elevation_gain": 41.0,
+    "map": {
+      "id": "s5515466",
+      "polyline": "c{huHa_eU\\oB^gEF]jBoGp@kEbAcIDq@JaFJeADUHOt@gAtAgBN[",
+      "resource_state": 3
+    },
+    "effort_count": 28469,
+    "athlete_count": 13202,
+    "star_count": 63,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 160,
+      "pr_date": "2023-08-27",
+      "pr_visibility": "everyone",
+      "pr_activity_id": 9731796748,
+      "pr_activity_visibility": "everyone",
+      "effort_count": 1
+    },
+    "xoms": {
+      "kom": "1:06",
+      "qom": "1:16",
+      "overall": "1:06",
+      "destination": {
+        "href": "strava://segments/5515466/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 81407470,
+      "title": "Mateo Balaj",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/81407470/19567968/5/large.jpg",
+      "effort_description": "19 efforts in the last 90 days",
+      "effort_count": "19",
+      "effort_counts": {
+        "overall": "19 efforts",
+        "female": "5 efforts"
+      },
+      "destination": "strava://segments/5515466/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Volkegemberg",
+      "segment_id": 5515466,
+      "ourKOM": "Ja",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 803856,
+    "resource_state": 3,
+    "name": "Achterberg",
+    "activity_type": "Ride",
+    "distance": 1631.24,
+    "average_grade": 4.1,
+    "maximum_grade": 16.7,
+    "elevation_high": 94.4,
+    "elevation_low": 26.8,
+    "start_latlng": [
+      50.83471848629415,
+      3.6079908907413483
+    ],
+    "end_latlng": [
+      50.83021664991975,
+      3.6285474244505167
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/2IZI2TGGUB5Q4KSF43RMGXSO2THML5L3R6MYBQWWPH4GKGFJUG5SIJQHCZITCEVF7FD7JPTA7WWNQRKMNUVX7XQ=",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/2IZI2TGGUB5Q4KSF43RMGXSO2THML5L3R6MYBQWWPH4GKGFJUG5SIJQHCZITCEVF7FD7JPTA7WWNQRKMNUVX7XQ=",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/UBF7ITZMHWBD3IHNPQ24NLNHITJDHERCLPTRYXGE5XJNKNO2M2BEG3IIK3JHHGKHNJFCNIWGDAHUZGEF3OQU34I="
+    },
+    "climb_category": 0,
+    "city": "Oudenaarde",
+    "state": "Vlaams Gewest",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2011-10-24T08:30:56Z",
+    "updated_at": "2021-05-20T08:02:06Z",
+    "total_elevation_gain": 67.6,
+    "map": {
+      "id": "s803856",
+      "polyline": "}sguH}t_U~AwCPSxDuDr@i@TWt@g@l@{@XWt@{@R[^eA^kBV{Av@oJHkCEwCGoAK_BUaCE{@VgCBcAE_@s@oEIy@I}C@uBPmEZ{CT}CHgCHs@V_BhByJv@}E",
+      "resource_state": 3
+    },
+    "effort_count": 94856,
+    "athlete_count": 31761,
+    "star_count": 291,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": null,
+      "pr_date": null,
+      "pr_visibility": null,
+      "pr_activity_id": null,
+      "pr_activity_visibility": null,
+      "effort_count": 0
+    },
+    "xoms": {
+      "kom": "2:40",
+      "qom": "3:25",
+      "overall": "2:40",
+      "destination": {
+        "href": "strava://segments/803856/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 37131802,
+      "title": "Hasan Thooft",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/37131802/11047290/3/large.jpg",
+      "effort_description": "21 efforts in the last 90 days",
+      "effort_count": "21",
+      "effort_counts": {
+        "overall": "21 efforts",
+        "female": "3 efforts"
+      },
+      "destination": "strava://segments/803856/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Achterberg",
+      "segment_id": 803856,
+      "ourKOM": "Ja",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 798765,
+    "resource_state": 3,
+    "name": "Steenberg",
+    "activity_type": "Ride",
+    "distance": 820.19,
+    "average_grade": 7.1,
+    "maximum_grade": 173.9,
+    "elevation_high": 98.4,
+    "elevation_low": 37.8,
+    "start_latlng": [
+      50.809932108968496,
+      3.6944967415183783
+    ],
+    "end_latlng": [
+      50.81484901718795,
+      3.7022460624575615
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/6EF4T3OH2ZHJCVFUQ4CULPML44HTAQHZQU7ESSUBZE6AF6ZRSCLNVQ4YZQ5AGXDZ32KCCPGEYJ6HRFQTN5TKUYI=",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/6EF4T3OH2ZHJCVFUQ4CULPML44HTAQHZQU7ESSUBZE6AF6ZRSCLNVQ4YZQ5AGXDZ32KCCPGEYJ6HRFQTN5TKUYI=",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/KBQUI5A66VJFRUJX7BXTN2SAXNUVN5M325A3GGFZDR53TP4LLMKGMNMMUVI5PLYBOOFHTVS6NGAUBL5ZDEPTTOY="
+    },
+    "climb_category": 0,
+    "city": "Maarkedal",
+    "state": "Vlaams Gewest",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2011-10-19T15:08:22Z",
+    "updated_at": "2021-05-20T08:02:06Z",
+    "total_elevation_gain": 60.6,
+    "map": {
+      "id": "s798765",
+      "polyline": "aybuHqqpUqCuBY_@UaA[cCAe@LsA?QEYSc@Ua@mC{DM[c@iBa@{@{DyD_AkA{AaB{@iA]u@u@oA?DB@MW",
+      "resource_state": 3
+    },
+    "effort_count": 69632,
+    "athlete_count": 31230,
+    "star_count": 368,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 155,
+      "pr_date": "2020-08-15",
+      "pr_visibility": "everyone",
+      "pr_activity_id": 3916097997,
+      "pr_activity_visibility": "everyone",
+      "effort_count": 6
+    },
+    "xoms": {
+      "kom": "1:22",
+      "qom": "2:03",
+      "overall": "1:22",
+      "destination": {
+        "href": "strava://segments/798765/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 48848512,
+      "title": "William Cardeli",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/48848512/13267700/18/large.jpg",
+      "effort_description": "11 efforts in the last 90 days",
+      "effort_count": "11",
+      "effort_counts": {
+        "overall": "11 efforts",
+        "female": "8 efforts"
+      },
+      "destination": "strava://segments/798765/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Steenberg",
+      "segment_id": 798765,
+      "ourKOM": "Ja",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 19452944,
+    "resource_state": 3,
+    "name": "Taaienberg",
+    "activity_type": "Ride",
+    "distance": 529.479,
+    "average_grade": 8.7,
+    "maximum_grade": 14.9,
+    "elevation_high": 77.7,
+    "elevation_low": 40.8,
+    "start_latlng": [
+      50.795167,
+      3.627892
+    ],
+    "end_latlng": [
+      50.79569,
+      3.63519
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/G4UR2A3MRNSHTUVZMIY4SMDUTJLIZTGNPTAJWU34AA5PLMZBKZ7TLIBY6CSSLTHK6BWXFMLZKSN5S6GR6GC2NTI=",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/G4UR2A3MRNSHTUVZMIY4SMDUTJLIZTGNPTAJWU34AA5PLMZBKZ7TLIBY6CSSLTHK6BWXFMLZKSN5S6GR6GC2NTI=",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/WARFV4C2KDJRGO2SVH6SHUA345HYBVXCQ6QQDO7CM2ES3SI3LVY6BQ7QCJVNBXZPKUOC4FZD6RRLM4TROOKWRUA="
+    },
+    "climb_category": 0,
+    "city": "Maarkedal",
+    "state": "Vlaanderen",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2018-12-07T14:38:15Z",
+    "updated_at": "2024-12-02T14:26:27Z",
+    "total_elevation_gain": 36.9,
+    "map": {
+      "id": "s19452944",
+      "polyline": "y|_uHeqcUIY[mCOiAaAuFI{@OoE?c@^aLF{F",
+      "resource_state": 3
+    },
+    "effort_count": 297997,
+    "athlete_count": 110218,
+    "star_count": 1829,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 100,
+      "pr_date": "2020-06-27",
+      "pr_visibility": "everyone",
+      "pr_activity_id": 3677955908,
+      "pr_activity_visibility": "everyone",
+      "effort_count": 14
+    },
+    "xoms": {
+      "kom": "1:01",
+      "qom": "1:26",
+      "overall": "1:01",
+      "destination": {
+        "href": "strava://segments/19452944/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 37131802,
+      "title": "Hasan Thooft",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/37131802/11047290/3/large.jpg",
+      "effort_description": "41 efforts in the last 90 days",
+      "effort_count": "41",
+      "effort_counts": {
+        "overall": "41 efforts",
+        "female": "3 efforts"
+      },
+      "destination": "strava://segments/19452944/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Taaienberg",
+      "segment_id": 19452944,
+      "ourKOM": "Ja",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 608903,
+    "resource_state": 3,
+    "name": "Berendries",
+    "activity_type": "Ride",
+    "distance": 888.305,
+    "average_grade": 8.2,
+    "maximum_grade": 13.1,
+    "elevation_high": 95.1,
+    "elevation_low": 29.3,
+    "start_latlng": [
+      50.8338242210448,
+      3.76963002607226
+    ],
+    "end_latlng": [
+      50.8319662883878,
+      3.78158563748002
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/74ONO56FZSA4YT7CFGSAHRLMQLIPPK6RKDT3I7LEEQWRZ2VNISBWCSGFAFRC7QCLGXIXKXP45Q72HVPQMS6QR5I=",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/74ONO56FZSA4YT7CFGSAHRLMQLIPPK6RKDT3I7LEEQWRZ2VNISBWCSGFAFRC7QCLGXIXKXP45Q72HVPQMS6QR5I=",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/NK3PRRMMQHBTYY55KACTXKE3EJ4DCYRUAJMZR4G5HDVSZH4SOCKXLLDI7AJCFTNCBLZAWDX7PTGIWBGLOEMG4UY="
+    },
+    "climb_category": 0,
+    "city": "Brakel",
+    "state": "Vlaams Gewest",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2010-04-04T01:40:16Z",
+    "updated_at": "2021-05-20T08:02:03Z",
+    "total_elevation_gain": 65.8,
+    "map": {
+      "id": "s608903",
+      "polyline": "gnguHeg_VKuAe@_DIy@BeAlAgP`BuOJs@p@eDv@kCXoARwADsBn@eE\\yA",
+      "resource_state": 3
+    },
+    "effort_count": 412793,
+    "athlete_count": 104294,
+    "star_count": 4761,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 131,
+      "pr_date": "2023-05-28",
+      "pr_visibility": "everyone",
+      "pr_activity_id": 9157869347,
+      "pr_activity_visibility": "everyone",
+      "effort_count": 55
+    },
+    "xoms": {
+      "kom": "1:29",
+      "qom": "2:01",
+      "overall": "1:29",
+      "destination": {
+        "href": "strava://segments/608903/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 20993335,
+      "title": "Nick Scheers",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/20993335/6184504/1/large.jpg",
+      "effort_description": "66 efforts in the last 90 days",
+      "effort_count": "66",
+      "effort_counts": {
+        "overall": "66 efforts",
+        "female": "7 efforts"
+      },
+      "destination": "strava://segments/608903/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Berendries",
+      "segment_id": 608903,
+      "ourKOM": "Ja",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 19631579,
+    "resource_state": 3,
+    "name": "Wolvenberg",
+    "activity_type": "Ride",
+    "distance": 665.948,
+    "average_grade": 7.0,
+    "maximum_grade": 12.6,
+    "elevation_high": 71.9,
+    "elevation_low": 25.0,
+    "start_latlng": [
+      50.841662,
+      3.63678
+    ],
+    "end_latlng": [
+      50.843332,
+      3.645841
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/BHNQXWIKDTHFASSOEHGU6IAVHMXOHH5VQLPKKYSF5M35AMDCN57OLMVZKTLWZLDBEDRZZULX4YL6P5XJHTPEKMHE",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/BHNQXWIKDTHFASSOEHGU6IAVHMXOHH5VQLPKKYSF5M35AMDCN57OLMVZKTLWZLDBEDRZZULX4YL6P5XJHTPEKMHE",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/PYIWL3PMI3UCRVZVDBIJMIP3MAPJFKR3OHV6E6C3L5QWUSPHORIKJ4JUDR3UJ4KJZ3OT4BOVXW2Q45ZH36LD2TAJ"
+    },
+    "climb_category": 0,
+    "city": "Oudenaarde",
+    "state": "Vlaanderen",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2019-01-07T09:36:06Z",
+    "updated_at": "2024-12-02T14:20:55Z",
+    "total_elevation_gain": 46.9,
+    "map": {
+      "id": "s19631579",
+      "polyline": "m_iuHwheUm@kEQ}AEaBg@yEs@uE[}ASiDg@yDm@}DQwDUaD",
+      "resource_state": 3
+    },
+    "effort_count": 209028,
+    "athlete_count": 79244,
+    "star_count": 2001,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 84,
+      "pr_date": "2023-05-28",
+      "pr_visibility": "everyone",
+      "pr_activity_id": 9157869347,
+      "pr_activity_visibility": "everyone",
+      "effort_count": 2
+    },
+    "xoms": {
+      "kom": "56s",
+      "qom": "1:19",
+      "overall": "56s",
+      "destination": {
+        "href": "strava://segments/19631579/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 15427420,
+      "title": "Theo  Velasco",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/15427420/20403511/19/large.jpg",
+      "effort_description": "11 efforts in the last 90 days",
+      "effort_count": "11",
+      "effort_counts": {
+        "overall": "11 efforts",
+        "female": "3 efforts"
+      },
+      "destination": "strava://segments/19631579/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Wolvenberg",
+      "segment_id": 19631579,
+      "ourKOM": "Ja",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 6982517,
+    "resource_state": 3,
+    "name": "kaperij",
+    "activity_type": "Ride",
+    "distance": 923.0,
+    "average_grade": 5.5,
+    "maximum_grade": 11.6,
+    "elevation_high": 86.0,
+    "elevation_low": 34.6,
+    "start_latlng": [
+      50.795374,
+      3.680118
+    ],
+    "end_latlng": [
+      50.789302,
+      3.687277
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/HJQSIQ7ZQB3EMQ4Z6H73HG6YRSJQ7APNBW3SFH66DASDGZS42AICFBJDDHM7L2HAPQBHRZWGYSSU6UHEARZUWDA=",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/HJQSIQ7ZQB3EMQ4Z6H73HG6YRSJQ7APNBW3SFH66DASDGZS42AICFBJDDHM7L2HAPQBHRZWGYSSU6UHEARZUWDA=",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/JQY33QDZF7TYH2EOXVBXKQC52RXE75BF5C7ZMGF35553YEKTP6F4QYTIQXWU22DH7GK2DWSN5P5N62KJGGIH4FY="
+    },
+    "climb_category": 0,
+    "city": "Maarkedal",
+    "state": "Flanders",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2014-04-10T05:34:47Z",
+    "updated_at": "2021-05-19T08:02:48Z",
+    "total_elevation_gain": 50.8,
+    "map": {
+      "id": "s6982517",
+      "polyline": "a~_uHuwmUp@wD^aB^eAd@mB~@}Cz@}A~CiEX[b@Yb@@HBfAl@\\Fn@Mp@SRKZSZWNSj@}Ab@sBPe@V[`A{@h@_@TKnA[l@C",
+      "resource_state": 3
+    },
+    "effort_count": 118946,
+    "athlete_count": 57806,
+    "star_count": 151,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 156,
+      "pr_date": "2021-04-27",
+      "pr_visibility": "everyone",
+      "pr_activity_id": 5202139194,
+      "pr_activity_visibility": "everyone",
+      "effort_count": 4
+    },
+    "xoms": {
+      "kom": "1:32",
+      "qom": "2:09",
+      "overall": "1:32",
+      "destination": {
+        "href": "strava://segments/6982517/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 45845912,
+      "title": "Xander Claeys",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/45845912/14593611/12/large.jpg",
+      "effort_description": "4 efforts in the last 90 days",
+      "effort_count": "4",
+      "effort_counts": {
+        "overall": "4 efforts",
+        "female": "3 efforts"
+      },
+      "destination": "strava://segments/6982517/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Kaperij",
+      "segment_id": 6982517,
+      "ourKOM": "Ja",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 10121233,
+    "resource_state": 3,
+    "name": "Nieuwe Kwaremont-RVVLstr-hotond",
+    "activity_type": "Ride",
+    "distance": 5266.3,
+    "average_grade": 2.6,
+    "maximum_grade": 19.7,
+    "elevation_high": 156.6,
+    "elevation_low": 16.1,
+    "start_latlng": [
+      50.782394,
+      3.517193
+    ],
+    "end_latlng": [
+      50.759743,
+      3.57225
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/GVMUNBEK2I53R6T6HGKDFQ4STK463KTPNQYJB2JJXLIN73ZUCVM3JKPVVI7ZR3QXDOZ56GFTL6JM7DBTXVMYKW3N",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/GVMUNBEK2I53R6T6HGKDFQ4STK463KTPNQYJB2JJXLIN73ZUCVM3JKPVVI7ZR3QXDOZ56GFTL6JM7DBTXVMYKW3N",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/5735BWYN3XNIPUOADIPGCPP3LIKWRVFY7TENEQK6SMXUHZ5IVZI2FFZ37KEOGAJ6MC7S52NCA4AY3RXV5EM4WVDL"
+    },
+    "climb_category": 0,
+    "city": "Kluisbergen",
+    "state": "Vlaams Gewest",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2015-08-03T16:57:31Z",
+    "updated_at": "2021-05-18T08:04:03Z",
+    "total_elevation_gain": 190.1,
+    "map": {
+      "id": "s10121233",
+      "polyline": "}l}tHm}mThBqBj@_@JMZIf@]|@a@n@a@b@Q`DgB|DsBxCcB`@OTOPOnDoB`@YHMPOl@[~BwBxAaBFKrAsA~DyEVSr@y@j@u@v@y@p@}@JG|@oAt@o@@IhAwAdDuDR]\\]p@w@JIn@y@r@u@j@w@vA}AXWVCZOZSdCeAdC{@bBg@dC_ALI\\e@h@sAp@kBRcAVq@Ps@PmAJmANyDPqBHyCFcEAsCD}AQ{EWaCw@{Fg@aEc@wCQwAy@oEKYn@wDVgB`AkIfIao@l@mFx@kEg@gBEa@Fy@HmCXiGh@_ORoDJaDDg@TeA\\}@hAaB|@iAr@iAH[TgBPkHR{ARa@Rw@^m@@IJSTm@NSXu@`@mAz@sCDSHS",
+      "resource_state": 3
+    },
+    "effort_count": 9256,
+    "athlete_count": 3572,
+    "star_count": 21,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 614,
+      "pr_date": "2025-02-27",
+      "pr_visibility": "everyone",
+      "pr_activity_id": 13742319240,
+      "pr_activity_visibility": "everyone",
+      "effort_count": 38
+    },
+    "xoms": {
+      "kom": "8:15",
+      "qom": "11:52",
+      "overall": "8:15",
+      "destination": {
+        "href": "strava://segments/10121233/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 81407470,
+      "title": "Mateo Balaj",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/81407470/19567968/5/large.jpg",
+      "effort_description": "5 efforts in the last 90 days",
+      "effort_count": "5",
+      "effort_counts": {
+        "overall": "5 efforts",
+        "female": "4 efforts"
+      },
+      "destination": "strava://segments/10121233/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Nieuwe Kwaremont-RVVLstr-hotond",
+      "segment_id": 10121233,
+      "ourKOM": "Ja",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 19631558,
+    "resource_state": 3,
+    "name": "Hostellerie",
+    "activity_type": "Ride",
+    "distance": 1302.52,
+    "average_grade": 4.1,
+    "maximum_grade": 10.5,
+    "elevation_high": 87.2,
+    "elevation_low": 28.6,
+    "start_latlng": [
+      50.844934,
+      3.763397
+    ],
+    "end_latlng": [
+      50.846797,
+      3.779082
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/S6HAB6XS5ZQXGUBVKTQLYH566IAJOKY2KMRGK5KB6DIUVP5XVX6FIMIAEC542N67IRFACSFFUHA2JPDTUIZGPSY=",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/S6HAB6XS5ZQXGUBVKTQLYH566IAJOKY2KMRGK5KB6DIUVP5XVX6FIMIAEC542N67IRFACSFFUHA2JPDTUIZGPSY=",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/3BPYSHGNOYFGYOPSI7YJSBTREGTEORGLXCCUR3W4DL37JECPKCQFA5K7GYCCAPMVYJJQOJKNGKZG6UWOBGIT6WQ="
+    },
+    "climb_category": 0,
+    "city": "Brakel",
+    "state": "Vlaanderen",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2019-01-07T09:32:59Z",
+    "updated_at": "2024-12-02T14:12:46Z",
+    "total_elevation_gain": 58.6,
+    "map": {
+      "id": "s19631558",
+      "polyline": "ysiuHe`~UUkCJgPOOsAy@GMWaFBo@Fo@J]hByBLWHWH{@Q}B]eCi@qC]sGG]Wk@UO}Ba@OKIOCc@xA{I@s@Ku@oCcM",
+      "resource_state": 3
+    },
+    "effort_count": 53231,
+    "athlete_count": 20579,
+    "star_count": 1793,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 178,
+      "pr_date": "2023-05-28",
+      "pr_visibility": "everyone",
+      "pr_activity_id": 9157869347,
+      "pr_activity_visibility": "everyone",
+      "effort_count": 92
+    },
+    "xoms": {
+      "kom": "2:06",
+      "qom": "2:29",
+      "overall": "2:06",
+      "destination": {
+        "href": "strava://segments/19631558/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 154907345,
+      "title": "Peter Ballet",
+      "profile": "avatar/athlete/large.png",
+      "effort_description": "19 efforts in the last 90 days",
+      "effort_count": "19",
+      "effort_counts": {
+        "overall": "19 efforts",
+        "female": "4 efforts"
+      },
+      "destination": "strava://segments/19631558/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Berg Hostellerie",
+      "segment_id": 19631558,
+      "ourKOM": "nee",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 19645532,
+    "resource_state": 3,
+    "name": "Berg Ten Houte",
+    "activity_type": "Ride",
+    "distance": 1038.98,
+    "average_grade": 8.6,
+    "maximum_grade": 13.9,
+    "elevation_high": 110.8,
+    "elevation_low": 45.4,
+    "start_latlng": [
+      50.784023,
+      3.655915
+    ],
+    "end_latlng": [
+      50.776493,
+      3.663125
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/3RH4U6LR33GEIBS3HWEYNOWILVHXAFFXSCUW2QHA7NCA2EAWB7SKRIMWWWJMJODZDYQVRTZUNHN6CAHVMFJWGVY=",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/3RH4U6LR33GEIBS3HWEYNOWILVHXAFFXSCUW2QHA7NCA2EAWB7SKRIMWWWJMJODZDYQVRTZUNHN6CAHVMFJWGVY=",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/J4VNQWKXO37SFX7XRVMLFEZDEW4MXW4SL6S7GDP5YYV4GGIYEZ6UAES5QXERDBEOQVVBNKAJ4DZWYT2HOBDZR3I="
+    },
+    "climb_category": 0,
+    "city": "Maarkedal",
+    "state": "Vlaanderen",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2019-01-09T09:20:21Z",
+    "updated_at": "2024-12-02T14:28:47Z",
+    "total_elevation_gain": 65.4,
+    "map": {
+      "id": "s19645532",
+      "polyline": "cw}tHm`iUrB_DXULAPD|ApAT@JKFOTwB^i@pBcBnEqCrE}BzDyDzBcC~BoFfDeF",
+      "resource_state": 3
+    },
+    "effort_count": 134497,
+    "athlete_count": 55252,
+    "star_count": 2128,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 169,
+      "pr_date": "2021-05-01",
+      "pr_visibility": "everyone",
+      "pr_activity_id": 5224793314,
+      "pr_activity_visibility": "everyone",
+      "effort_count": 2
+    },
+    "xoms": {
+      "kom": "1:52",
+      "qom": "2:19",
+      "overall": "1:52",
+      "destination": {
+        "href": "strava://segments/19645532/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 37131802,
+      "title": "Hasan Thooft",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/37131802/11047290/3/large.jpg",
+      "effort_description": "11 efforts in the last 90 days",
+      "effort_count": "11",
+      "effort_counts": {
+        "overall": "11 efforts",
+        "female": "2 efforts"
+      },
+      "destination": "strava://segments/19645532/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Berg ten Houte",
+      "segment_id": 19645532,
+      "ourKOM": "nee",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 822888,
+    "resource_state": 3,
+    "name": "Berg-ter-Stene",
+    "activity_type": "Ride",
+    "distance": 1474.94,
+    "average_grade": 4.6,
+    "maximum_grade": 21.2,
+    "elevation_high": 92.2,
+    "elevation_low": 24.2,
+    "start_latlng": [
+      50.813793735578656,
+      3.680632319301367
+    ],
+    "end_latlng": [
+      50.825758818537,
+      3.686198154464364
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/KYW4YA26TLYK7GWESD6S5ISF6BF4FTHPFCYI6HWXUZ5FAUBPQ3KWUKDV4HVTILW5LOG5AW7OEQFXKYX7HAOUAHA=",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/KYW4YA26TLYK7GWESD6S5ISF6BF4FTHPFCYI6HWXUZ5FAUBPQ3KWUKDV4HVTILW5LOG5AW7OEQFXKYX7HAOUAHA=",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/TPTFWRF7ONCSG7Y66QDPZJIAVE2OLIUX2L33LEIHOYOSUM3AAEYEKIBPFDSALZDTCKQ2AVSYIGJYNACRY46BEOQ="
+    },
+    "climb_category": 0,
+    "city": "Maarkedal",
+    "state": "Vlaams Gewest",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2011-11-11T17:18:20Z",
+    "updated_at": "2021-05-20T08:02:07Z",
+    "total_elevation_gain": 67.6,
+    "map": {
+      "id": "s822888",
+      "polyline": "eqcuH}zmUw@u@MGuBe@wABy@Rc@DY?s@[aAWu@[yAa@IAcBFa@?Q?OIMOa@_Ae@o@[k@wBaC{AmBc@e@u@m@cAeAs@k@c@c@Q]c@uAWg@QMy@]aBe@o@GY@oAR_BIsA?K@c@J}B|@kA^q@[Ye@m@}@UUCA",
+      "resource_state": 3
+    },
+    "effort_count": 84175,
+    "athlete_count": 21911,
+    "star_count": 354,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 195,
+      "pr_date": "2024-07-17",
+      "pr_visibility": "everyone",
+      "pr_activity_id": 11910359826,
+      "pr_activity_visibility": "everyone",
+      "effort_count": 152
+    },
+    "xoms": {
+      "kom": "2:14",
+      "qom": "2:46",
+      "overall": "2:14",
+      "destination": {
+        "href": "strava://segments/822888/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 37131802,
+      "title": "Hasan Thooft",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/37131802/11047290/3/large.jpg",
+      "effort_description": "20 efforts in the last 90 days",
+      "effort_count": "20",
+      "effort_counts": {
+        "overall": "20 efforts",
+        "female": "5 efforts"
+      },
+      "destination": "strava://segments/822888/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Berg ten Stene",
+      "segment_id": 822888,
+      "ourKOM": "nee",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 17197893,
+    "resource_state": 3,
+    "name": "Boigneberg",
+    "activity_type": "Ride",
+    "distance": 1007.7,
+    "average_grade": 5.6,
+    "maximum_grade": 12.2,
+    "elevation_high": 83.6,
+    "elevation_low": 27.2,
+    "start_latlng": [
+      50.819805,
+      3.665032
+    ],
+    "end_latlng": [
+      50.826953,
+      3.658135
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/GTGWPVMA4QEDHR3QWABTKXP6BPJIEJZBXRX5D3ZIPQPM3L5L3DLIYBU3C2D3CZCYRTE3SIMDCUOGIOJEBLSAKKEM",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/GTGWPVMA4QEDHR3QWABTKXP6BPJIEJZBXRX5D3ZIPQPM3L5L3DLIYBU3C2D3CZCYRTE3SIMDCUOGIOJEBLSAKKEM",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/CYA6RWJIFDDUT2HA4UPELVQOL2HHH3Z2GECTW3XJMJPBBHOZ5NTCDVCNY4EPVF5JILQ5WKFVAZNHWDWLBPIOQSJG"
+    },
+    "climb_category": 0,
+    "city": "Maarkedal",
+    "state": "Vlaanderen",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2018-03-18T18:49:56Z",
+    "updated_at": "2021-05-20T08:04:34Z",
+    "total_elevation_gain": 56.4,
+    "map": {
+      "id": "s17197893",
+      "polyline": "wvduHmyjU_CbAi@R_@FiAJkCz@cBd@{@T]Bu@Pq@TeAd@q@b@u@\\mAt@i@^aCtB[^Wf@w@bCI^Kv@A`AEh@]zBU`CKf@GPQTcA`A",
+      "resource_state": 3
+    },
+    "effort_count": 59214,
+    "athlete_count": 25301,
+    "star_count": 266,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 131,
+      "pr_date": "2019-09-28",
+      "pr_visibility": "everyone",
+      "pr_activity_id": 2747028901,
+      "pr_activity_visibility": "everyone",
+      "effort_count": 17
+    },
+    "xoms": {
+      "kom": "1:43",
+      "qom": "2:28",
+      "overall": "1:43",
+      "destination": {
+        "href": "strava://segments/17197893/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 52379421,
+      "title": "Wim Vandemaele",
+      "profile": "avatar/athlete/large.png",
+      "effort_description": "8 efforts in the last 90 days",
+      "effort_count": "8",
+      "effort_counts": {
+        "overall": "8 efforts",
+        "female": "2 efforts"
+      },
+      "destination": "strava://segments/17197893/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Boigneberg",
+      "segment_id": 17197893,
+      "ourKOM": "ja",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 21643592,
+    "resource_state": 3,
+    "name": "Bosberg",
+    "activity_type": "Ride",
+    "distance": 956.812,
+    "average_grade": 6.1,
+    "maximum_grade": 10.1,
+    "elevation_high": 103.2,
+    "elevation_low": 45.4,
+    "start_latlng": [
+      50.767754,
+      3.92626
+    ],
+    "end_latlng": [
+      50.7687,
+      3.93969
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/A2BM5ISR5IVK2JVDMJYIE3TMV56W65CAWUUNMHMFRBBZQIKBQVRFXJJ7GDVL6TDMYXQMEMUFUU6ALZOS4AUC3UQ=",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/A2BM5ISR5IVK2JVDMJYIE3TMV56W65CAWUUNMHMFRBBZQIKBQVRFXJJ7GDVL6TDMYXQMEMUFUU6ALZOS4AUC3UQ=",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/NWKX6AKRF7QQQYR2LDDX4ZRXU5R3B7NPYVIQ3NFYAWABUHEPZ2MGMTLF3TRMXMHVHEFG3DAOVLKITVXAD4IETDA="
+    },
+    "climb_category": 0,
+    "city": "Geraardsbergen",
+    "state": "Vlaanderen",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2019-08-30T14:29:25Z",
+    "updated_at": "2024-12-02T13:27:01Z",
+    "total_elevation_gain": 57.8,
+    "map": {
+      "id": "s21643592",
+      "polyline": "qqztHaz}V_Aqg@SmBs@mEWqBQiBEcAFmPKaF",
+      "resource_state": 3
+    },
+    "effort_count": 205933,
+    "athlete_count": 68840,
+    "star_count": 2609,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 134,
+      "pr_date": "2023-05-28",
+      "pr_visibility": "everyone",
+      "pr_activity_id": 9157869347,
+      "pr_activity_visibility": "everyone",
+      "effort_count": 3
+    },
+    "xoms": {
+      "kom": "1:35",
+      "qom": "2:22",
+      "overall": "1:35",
+      "destination": {
+        "href": "strava://segments/21643592/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 11394538,
+      "title": "Johan Deschepper",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/11394538/9353271/5/large.jpg",
+      "effort_description": "49 efforts in the last 90 days",
+      "effort_count": "49",
+      "effort_counts": {
+        "overall": "49 efforts",
+        "female": "6 efforts"
+      },
+      "destination": "strava://segments/21643592/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Bosberg",
+      "segment_id": 21643592,
+      "ourKOM": "nee",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 15659149,
+    "resource_state": 3,
+    "name": "Bossenaarberg",
+    "activity_type": "Ride",
+    "distance": 1694.0,
+    "average_grade": 3.6,
+    "maximum_grade": 15.8,
+    "elevation_high": 75.0,
+    "elevation_low": 14.0,
+    "start_latlng": [
+      50.809393,
+      3.626615
+    ],
+    "end_latlng": [
+      50.797383,
+      3.633373
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/KVPZCO47ISPVP36TXDQQSCOJHZD4LLVJUONOMCWU6JSDCVMZ3UR6FBK35K55JTY5COZJJIUFTHTGFRSG3S3VYKI=",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/KVPZCO47ISPVP36TXDQQSCOJHZD4LLVJUONOMCWU6JSDCVMZ3UR6FBK35K55JTY5COZJJIUFTHTGFRSG3S3VYKI=",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/B6JSO2TXPJKDGDLACCZ53FPEARSCTSPIUPD35JDQ7ZQWOZSCPQXNJSPHMN45FAC2VMFPJBG3XCF5QUIYLDWZHFY="
+    },
+    "climb_category": 0,
+    "city": "Maarkedal",
+    "state": "Vlaanderen",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2017-08-07T12:19:52Z",
+    "updated_at": "2021-05-20T08:04:21Z",
+    "total_elevation_gain": 66.0,
+    "map": {
+      "id": "s15659149",
+      "polyline": "uubuHiicUHc@^yAf@_DVcAHm@Ri@Vc@Ni@r@eArDeD|@cA|@u@HMv@s@X]~AgFDGJIL@XL`@HVR~@d@t@l@XNJJr@b@\\XfEtCHBNMPm@Ls@Ro@FOJID?TD`@XrAfArBlBTNf@NXDjAElAR`@@^INGd@a@f@y@xAuCjAqAtCyDp@w@",
+      "resource_state": 3
+    },
+    "effort_count": 5607,
+    "athlete_count": 3545,
+    "star_count": 40,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": null,
+      "pr_date": null,
+      "pr_visibility": null,
+      "pr_activity_id": null,
+      "pr_activity_visibility": null,
+      "effort_count": 0
+    },
+    "xoms": {
+      "kom": "3:04",
+      "qom": "4:33",
+      "overall": "3:04",
+      "destination": {
+        "href": "strava://segments/15659149/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 39926701,
+      "title": "Andy Lauwerier",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/39926701/11680474/3/large.jpg",
+      "effort_description": "2 efforts in the last 90 days",
+      "effort_count": "2",
+      "effort_counts": {
+        "overall": "2 efforts",
+        "female": "1 effort"
+      },
+      "destination": "strava://segments/15659149/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Bossenaarberg",
+      "segment_id": 15659149,
+      "ourKOM": "nee",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 1030580,
+    "resource_state": 3,
+    "name": "Den Ast",
+    "activity_type": "Ride",
+    "distance": 496.695,
+    "average_grade": 4.3,
+    "maximum_grade": 11.6,
+    "elevation_high": 17.6,
+    "elevation_low": -3.9,
+    "start_latlng": [
+      50.896591,
+      3.604955
+    ],
+    "end_latlng": [
+      50.899959,
+      3.605225
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/ZCMKRMQNOT4VGJAY3FB3IH7IKR3H5WKLYDUVBDAPXYVXTMR3LXNY4CZAMAAFBYKQYAQBIEKKYXOKBGCS5O6SAMZU",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/ZCMKRMQNOT4VGJAY3FB3IH7IKR3H5WKLYDUVBDAPXYVXTMR3LXNY4CZAMAAFBYKQYAQBIEKKYXOKBGCS5O6SAMZU",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/4JRTKCEYQJCQX5BATOPLLLCFH7YYLDTXNMNBTDH7P6HJWWTMTAPHFE2OCUHO66HYRQPVIXFFKXJJGR426NNSRVJU"
+    },
+    "climb_category": 0,
+    "city": "Zingem",
+    "state": "Vlaams Gewest",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2012-02-27T21:43:13Z",
+    "updated_at": "2021-05-20T08:02:08Z",
+    "total_elevation_gain": 20.745,
+    "map": {
+      "id": "s1030580",
+      "polyline": "uvsuH}a_U}@eA{@_BYyC_@y@UCe@@YD_Bj@g@L{@t@a@t@Cb@_@lAk@T_BP",
+      "resource_state": 3
+    },
+    "effort_count": 115016,
+    "athlete_count": 35362,
+    "star_count": 189,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": null,
+      "pr_date": null,
+      "pr_visibility": null,
+      "pr_activity_id": null,
+      "pr_activity_visibility": null,
+      "effort_count": 0
+    },
+    "xoms": {
+      "kom": "41s",
+      "qom": "46s",
+      "overall": "41s",
+      "destination": {
+        "href": "strava://segments/1030580/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 21084992,
+      "title": "Rik Rosseau",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/21084992/6022970/1/large.jpg",
+      "effort_description": "17 efforts in the last 90 days",
+      "effort_count": "17",
+      "effort_counts": {
+        "overall": "17 efforts",
+        "female": "5 efforts"
+      },
+      "destination": "strava://segments/1030580/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Den Ast",
+      "segment_id": 1030580,
+      "ourKOM": "nee",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 7588957,
+    "resource_state": 3,
+    "name": "- Edelareberg -",
+    "activity_type": "Ride",
+    "distance": 1483.1,
+    "average_grade": 4.1,
+    "maximum_grade": 11.6,
+    "elevation_high": 78.7,
+    "elevation_low": 18.4,
+    "start_latlng": [
+      50.835204,
+      3.60908
+    ],
+    "end_latlng": [
+      50.833176,
+      3.625976
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/FD37L7QOMPJ6UNPX4I4HKBR6UZOFCMO7IEC6DX2ZVVCA7C45UN4KDVFSZ5VFZUNFRMAL2DEGQCKY5REA63HLF4T3",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/FD37L7QOMPJ6UNPX4I4HKBR6UZOFCMO7IEC6DX2ZVVCA7C45UN4KDVFSZ5VFZUNFRMAL2DEGQCKY5REA63HLF4T3",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/MROGETVZ5LNR3QOP5IUIKLX7XQXFUGGYLIJTMD6HJBHULLC63DS373UGRVGBT6LEVBFJJ4TMHA6HNXZSUGBZAKMP"
+    },
+    "climb_category": 0,
+    "city": "Oudenaarde",
+    "state": "Flanders",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2014-07-06T21:07:10Z",
+    "updated_at": "2021-05-20T08:03:03Z",
+    "total_elevation_gain": 60.5,
+    "map": {
+      "id": "s7588957",
+      "polyline": "_wguHw{_USm@CSUaAo@kBY_AU}@Yu@c@wBy@}CWm@Ik@GIU{@KSIg@EKKGYo@Ba@CMDQC]KGEICOM_@?MKWM}AK_DSyI@s@Dg@X_AXq@b@o@p@s@z@g@NMRGVW\\QFKn@g@d@i@p@gA`@cATiARk@Zs@^cAViA\\y@`@yA\\eAx@mCTg@v@gC\\o@HKRg@",
+      "resource_state": 3
+    },
+    "effort_count": 133642,
+    "athlete_count": 27108,
+    "star_count": 462,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 194,
+      "pr_date": "2019-02-23",
+      "pr_visibility": "everyone",
+      "pr_activity_id": 2171323093,
+      "pr_activity_visibility": "everyone",
+      "effort_count": 3
+    },
+    "xoms": {
+      "kom": "2:14",
+      "qom": "2:38",
+      "overall": "2:14",
+      "destination": {
+        "href": "strava://segments/7588957/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 1725761,
+      "title": "Jo Vandermeirsch",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/1725761/5891017/6/large.jpg",
+      "effort_description": "30 efforts in the last 90 days",
+      "effort_count": "30",
+      "effort_counts": {
+        "overall": "30 efforts",
+        "female": "17 efforts"
+      },
+      "destination": "strava://segments/7588957/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Edelareberg",
+      "segment_id": 7588957,
+      "ourKOM": "nee",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 608892,
+    "resource_state": 3,
+    "name": "Eikenberg",
+    "activity_type": "Ride",
+    "distance": 1217.27,
+    "average_grade": 6.1,
+    "maximum_grade": 9.8,
+    "elevation_high": 82.1,
+    "elevation_low": 21.0,
+    "start_latlng": [
+      50.8188142441213,
+      3.64040999673307
+    ],
+    "end_latlng": [
+      50.8284590486437,
+      3.63509126007557
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/TF7Y5UFU3XWTXV3YLAUVSPCXVVGPOQEYLPMCWSSVBCX7U25SMIGTDAV42JODPPERVLJMTB2NOGFP6LUDGCXPZCA=",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/TF7Y5UFU3XWTXV3YLAUVSPCXVVGPOQEYLPMCWSSVBCX7U25SMIGTDAV42JODPPERVLJMTB2NOGFP6LUDGCXPZCA=",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/36CRJEOYISLGGUKNH7TFQGNF6BRO5LLGB4HZYN5WJ4ICNKR7X6OOPMUQH5EVRNSQPWBXX227DFYZKW7GZL4MLOY="
+    },
+    "climb_category": 0,
+    "city": "Maarkedal",
+    "state": "Vlaams Gewest",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2010-04-04T00:49:20Z",
+    "updated_at": "2021-05-20T08:02:03Z",
+    "total_elevation_gain": 61.1,
+    "map": {
+      "id": "s608892",
+      "polyline": "spduHg_fUoAi@iASgAKmAIaE?{DCu@D[FcDjASL_@^INg@tBo@tAuAlBq@p@k@^oAt@_F|BeAXe@Fk@R_@Tc@j@c@`AgBdF",
+      "resource_state": 3
+    },
+    "effort_count": 168148,
+    "athlete_count": 75994,
+    "star_count": 3086,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 233,
+      "pr_date": "2020-04-29",
+      "pr_visibility": "everyone",
+      "pr_activity_id": 3371512287,
+      "pr_activity_visibility": "everyone",
+      "effort_count": 2
+    },
+    "xoms": {
+      "kom": "2:11",
+      "qom": "2:47",
+      "overall": "2:11",
+      "destination": {
+        "href": "strava://segments/608892/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 53167420,
+      "title": "Tim De Rooze",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/53167420/39102748/1/large.jpg",
+      "effort_description": "9 efforts in the last 90 days",
+      "effort_count": "9",
+      "effort_counts": {
+        "overall": "9 efforts",
+        "female": "2 efforts"
+      },
+      "destination": "strava://segments/608892/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Eikenberg",
+      "segment_id": 608892,
+      "ourKOM": "nee",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 763018,
+    "resource_state": 3,
+    "name": "Eikenmolen",
+    "activity_type": "Ride",
+    "distance": 1379.29,
+    "average_grade": 3.1,
+    "maximum_grade": 11.0,
+    "elevation_high": 55.4,
+    "elevation_low": 6.4,
+    "start_latlng": [
+      50.808698292821646,
+      3.816482601687312
+    ],
+    "end_latlng": [
+      50.81583933904767,
+      3.8117842096835375
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/RCSVA3K5EEDXDGHC4KVJPJHAPWRVBP4J5OCBWZSUAV5COKNQ4GVR5R345MBNAYGJMYXV3CWGHWG27T5CAGLXHEY=",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/RCSVA3K5EEDXDGHC4KVJPJHAPWRVBP4J5OCBWZSUAV5COKNQ4GVR5R345MBNAYGJMYXV3CWGHWG27T5CAGLXHEY=",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/R3WSCYVHXR2PHTPFWOKVODUJA7S2AEEK2MWHZSODBQ2INDIB5Y5WRGRZVITN4Y6ZNEC7HQENXADMEBYVADPTAQY="
+    },
+    "climb_category": 0,
+    "city": "Lierde",
+    "state": "Vlaams Gewest",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2011-09-19T14:09:19Z",
+    "updated_at": "2021-05-20T08:02:05Z",
+    "total_elevation_gain": 49.0,
+    "map": {
+      "id": "s763018",
+      "polyline": "iqbuH_lhVYjFAxB@t@Dr@h@vG@^GpBSh@[Xc@Po@b@sAp@q@d@wA`B[ZYb@o@jAm@x@WL_@@k@Lu@DaCj@mAJaBn@s@RMJ[h@s@x@_@p@a@DOKc@cAg@qAK_@MiAI}CQqBKa@O_@e@w@y@yB",
+      "resource_state": 3
+    },
+    "effort_count": 10184,
+    "athlete_count": 4993,
+    "star_count": 32,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 225,
+      "pr_date": "2025-04-02",
+      "pr_visibility": "everyone",
+      "pr_activity_id": 14057991625,
+      "pr_activity_visibility": "everyone",
+      "effort_count": 1
+    },
+    "xoms": {
+      "kom": "2:10",
+      "qom": "2:51",
+      "overall": "2:10",
+      "destination": {
+        "href": "strava://segments/763018/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 9046587,
+      "title": "Karen Lemeire",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/9046587/2737711/10/large.jpg",
+      "effort_description": "6 efforts in the last 90 days",
+      "effort_count": "6",
+      "effort_counts": {
+        "overall": "6 efforts",
+        "female": "6 efforts"
+      },
+      "destination": "strava://segments/763018/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Eikenmolen",
+      "segment_id": 763018,
+      "ourKOM": "nee",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 1709212,
+    "resource_state": 3,
+    "name": "Flierendries",
+    "activity_type": "Ride",
+    "distance": 1274.79,
+    "average_grade": 2.2,
+    "maximum_grade": 10.1,
+    "elevation_high": 94.6,
+    "elevation_low": 66.4,
+    "start_latlng": [
+      50.80899652093649,
+      3.9891599491238594
+    ],
+    "end_latlng": [
+      50.81330171786249,
+      4.002248626202345
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/GCQH3MEPQSSFVG5OCXJBPWP72PZ43CMXCCDVV7XBRLL4RM7VHO4UCAADSDWVUT2AJBXJPRWZSNUHG6WNDV6XEJFZ",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/GCQH3MEPQSSFVG5OCXJBPWP72PZ43CMXCCDVV7XBRLL4RM7VHO4UCAADSDWVUT2AJBXJPRWZSNUHG6WNDV6XEJFZ",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/A3LDRMOSGKNBPS2IHYLDMWPMUXDDXMFG2DOWYC57NSLDPIC3BW5TWBVBJIFFOSC63N3J2ER5QUGS5SK6LEF6ULZ3"
+    },
+    "climb_category": 0,
+    "city": "Ninove",
+    "state": "Vlaams Gewest",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2012-07-08T16:47:08Z",
+    "updated_at": "2021-05-20T08:02:14Z",
+    "total_elevation_gain": 28.2,
+    "map": {
+      "id": "s1709212",
+      "polyline": "esbuHgcjWr@fAPCpCgF^{@DQFe@?a@E]]uA[aA_@kB_@sAg@y@K]s@gAu@sB{@kAc@aAq@sBgAqC]qAQeAg@oEK_@aBmD_CyJWk@w@}@IIyAy@}AgBSY",
+      "resource_state": 3
+    },
+    "effort_count": 12998,
+    "athlete_count": 4623,
+    "star_count": 45,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": null,
+      "pr_date": null,
+      "pr_visibility": null,
+      "pr_activity_id": null,
+      "pr_activity_visibility": null,
+      "effort_count": 0
+    },
+    "xoms": {
+      "kom": "1:44",
+      "qom": "2:39",
+      "overall": "1:44",
+      "destination": {
+        "href": "strava://segments/1709212/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 14879335,
+      "title": "Sonny De Zutter",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/14879335/4200302/6/large.jpg",
+      "effort_description": "37 efforts in the last 90 days",
+      "effort_count": "37",
+      "effort_counts": {
+        "overall": "37 efforts",
+        "female": "7 efforts"
+      },
+      "destination": "strava://segments/1709212/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Flierendries",
+      "segment_id": 1709212,
+      "ourKOM": "nee",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 1421424,
+    "resource_state": 3,
+    "name": "Grotenbergestraat",
+    "activity_type": "Ride",
+    "distance": 846.161,
+    "average_grade": 3.6,
+    "maximum_grade": 8.5,
+    "elevation_high": 86.9,
+    "elevation_low": 56.2,
+    "start_latlng": [
+      50.87212800979614,
+      3.8218796253204346
+    ],
+    "end_latlng": [
+      50.872642993927,
+      3.8324153423309326
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/ZK5H2SAAPROD7KXI3Q7VW37MELLWS7DDYVZ5TQCOPIYSDMNVPVTSRUXNLV2QWDPSU7RMYK4XBE46IPJCTIJ7G6I=",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/ZK5H2SAAPROD7KXI3Q7VW37MELLWS7DDYVZ5TQCOPIYSDMNVPVTSRUXNLV2QWDPSU7RMYK4XBE46IPJCTIJ7G6I=",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/4S46UGWWU3ICV7GXZIWEDEM3UKSLILDGIEM2Y2CYAJXODJD4FV5QAZDH7DWTZLRFNJKSWZTG7LEHIDOUXCCU7QQ="
+    },
+    "climb_category": 0,
+    "city": "Zottegem",
+    "state": "Vlaams Gewest",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": true,
+    "starred": false,
+    "created_at": "2012-05-21T10:50:59Z",
+    "updated_at": "2021-05-15T02:12:04Z",
+    "total_elevation_gain": 30.8136,
+    "map": {
+      "id": "s1421424",
+      "polyline": "w}nuHwmiVPq@Fu@@o@KkA}@_Em@yA[i@y@cCEs@E]OmBq@kCSc@M_@WmAEm@CsAGi@F{BZkAjAwBTk@t@_Cd@iBPa@D]?]Gg@Mg@",
+      "resource_state": 3
+    },
+    "effort_count": 57192,
+    "athlete_count": 12774,
+    "star_count": 5,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": null,
+      "pr_date": null,
+      "pr_visibility": null,
+      "pr_activity_id": null,
+      "pr_activity_visibility": null,
+      "effort_count": 0
+    },
+    "xoms": {
+      "kom": "1:04",
+      "qom": "1:22",
+      "overall": "1:04",
+      "destination": {
+        "href": "strava://segments/1421424/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": null,
+    "kings_data": {
+      "segment_name": "Grotenberge",
+      "segment_id": 1421424,
+      "ourKOM": "nee",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 1515649,
+    "resource_state": 3,
+    "name": "Hoogberg - Hotond ",
+    "activity_type": "Ride",
+    "distance": 4553.63,
+    "average_grade": 2.7,
+    "maximum_grade": 7.5,
+    "elevation_high": 138.4,
+    "elevation_low": 13.4,
+    "start_latlng": [
+      50.790964,
+      3.56881
+    ],
+    "end_latlng": [
+      50.760214,
+      3.571374
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/H2BIFM5IUHASHFJ4V5YCVJA5VISTDNK3IPKFRKG7RGLGTCFEEWAMJYH6KPKVMZ45RFPEC6GW4EFRN5ITBIMZYOA=",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/H2BIFM5IUHASHFJ4V5YCVJA5VISTDNK3IPKFRKG7RGLGTCFEEWAMJYH6KPKVMZ45RFPEC6GW4EFRN5ITBIMZYOA=",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/HQKLQSISMN45BR77OQPAIKP42QECN3ZB3RAM4A6Y5PUNIRIWTZK4NAVLLGNH4INJSHW6VBHRDCFUHVTDSTCM7IY="
+    },
+    "climb_category": 0,
+    "city": "Kluisbergen",
+    "state": "Vlaams Gewest",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2012-06-06T05:12:59Z",
+    "updated_at": "2021-05-20T08:02:12Z",
+    "total_elevation_gain": 133.863,
+    "map": {
+      "id": "s1515649",
+      "polyline": "ob_uHa`xTR}@Ra@|GqHVSTMtDQzIiAtBa@dBUfG[rBGfBPfBRnB`@nBp@`DdDn@PLCnKoE~AcAdZ}WbCyBfBkB`@[dCcAbAYpAEhATtA`@pEx@rDnAlAG|@i@p@kAb@aBhAaFj@uAnAcCt@_BbCcIv@uBx@cBZULRr@rChArDdAtC|G|P~@zAnAx@fBj@~@\\x@fARv@ZpBp@nDDl@@l@Cn@U|AoDfL",
+      "resource_state": 3
+    },
+    "effort_count": 21369,
+    "athlete_count": 8476,
+    "star_count": 26,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 480,
+      "pr_date": "2023-04-07",
+      "pr_visibility": "everyone",
+      "pr_activity_id": 8848644834,
+      "pr_activity_visibility": "everyone",
+      "effort_count": 2
+    },
+    "xoms": {
+      "kom": "7:13",
+      "qom": "9:11",
+      "overall": "7:13",
+      "destination": {
+        "href": "strava://segments/1515649/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 11579852,
+      "title": "Paquita Derie",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/11579852/4006416/6/large.jpg",
+      "effort_description": "8 efforts in the last 90 days",
+      "effort_count": "8",
+      "effort_counts": {
+        "overall": "8 efforts",
+        "female": "8 efforts"
+      },
+      "destination": "strava://segments/1515649/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Hoogberg-Hotond",
+      "segment_id": 1515649,
+      "ourKOM": "nee",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 19610530,
+    "resource_state": 3,
+    "name": "Kanarieberg",
+    "activity_type": "Ride",
+    "distance": 916.924,
+    "average_grade": 8.6,
+    "maximum_grade": 12.0,
+    "elevation_high": 130.0,
+    "elevation_low": 52.4,
+    "start_latlng": [
+      50.75843,
+      3.653812
+    ],
+    "end_latlng": [
+      50.765888,
+      3.648486
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/LBMW7JTRAX3OAQ4PXVYJGCJROU2BPWYOW24CDJGUWRPJFPNI4PF63RBBWAJ7MC2ITLBNIEXR6ENRCG35ZXGPSJCJ",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/LBMW7JTRAX3OAQ4PXVYJGCJROU2BPWYOW24CDJGUWRPJFPNI4PF63RBBWAJ7MC2ITLBNIEXR6ENRCG35ZXGPSJCJ",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/DP55M2KN3WCT6YAV7AHZAYT67AM3WIB757XGNDB4SP5YSMSRIPPN6CR3IRRZQYG23EIANCC2ELX43WRTONETSFFS"
+    },
+    "climb_category": 0,
+    "city": "Ronse",
+    "state": "Vlaanderen",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2019-01-04T14:37:15Z",
+    "updated_at": "2024-12-02T14:19:41Z",
+    "total_elevation_gain": 77.6,
+    "map": {
+      "id": "s19610530",
+      "polyline": "ewxtHishUgIhDeATi@Fe@TqDxBo@f@mBtB_@ZkBdAgBv@qB~Ao@x@sCbCyB|B",
+      "resource_state": 3
+    },
+    "effort_count": 265723,
+    "athlete_count": 84457,
+    "star_count": 3104,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 158,
+      "pr_date": "2021-03-20",
+      "pr_visibility": "everyone",
+      "pr_activity_id": 4978152569,
+      "pr_activity_visibility": "everyone",
+      "effort_count": 28
+    },
+    "xoms": {
+      "kom": "1:50",
+      "qom": "2:24",
+      "overall": "1:50",
+      "destination": {
+        "href": "strava://segments/19610530/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 41127220,
+      "title": "Kasper Van Dycke",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/41127220/23821953/2/large.jpg",
+      "effort_description": "115 efforts in the last 90 days",
+      "effort_count": "115",
+      "effort_counts": {
+        "overall": "115 efforts",
+        "female": "4 efforts"
+      },
+      "destination": "strava://segments/19610530/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "kanarieberg",
+      "segment_id": 19610530,
+      "ourKOM": "nee",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 823463,
+    "resource_state": 3,
+    "name": "Kasteeldreef",
+    "activity_type": "Ride",
+    "distance": 877.15,
+    "average_grade": 6.3,
+    "maximum_grade": 9.8,
+    "elevation_high": 30.4,
+    "elevation_low": -25.0,
+    "start_latlng": [
+      50.82459884695709,
+      3.777697440236807
+    ],
+    "end_latlng": [
+      50.831094570457935,
+      3.784369435161352
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/RWX3CLKLPFEJEMFQKERBSP6AEIFYMEWKOVXSUAMYRSUG6JP4LL3E4LDUQOP2U56OKVHK3KZ3NZLIMTY752ANXXI=",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/RWX3CLKLPFEJEMFQKERBSP6AEIFYMEWKOVXSUAMYRSUG6JP4LL3E4LDUQOP2U56OKVHK3KZ3NZLIMTY752ANXXI=",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/A3IM4DNDKN5ANUVXGHOBQJEFZ2SLVM7E725TF6WVAOKQMCH2BRCNSQ6U7OXSQD5ZRWWPJR5RAJIDFSE5L3SABQI="
+    },
+    "climb_category": 0,
+    "city": "Brakel",
+    "state": "Vlaams Gewest",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2011-11-12T11:06:04Z",
+    "updated_at": "2021-05-20T08:02:07Z",
+    "total_elevation_gain": 55.4,
+    "map": {
+      "id": "s823463",
+      "polyline": "uteuHqy`VY}@m@cBe@{@}@qAwBiBeBwB_B_BkB{AsAoAwBcB{JmIoAaAe@c@",
+      "resource_state": 3
+    },
+    "effort_count": 41318,
+    "athlete_count": 11231,
+    "star_count": 81,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 120,
+      "pr_date": "2024-07-27",
+      "pr_visibility": "everyone",
+      "pr_activity_id": 11993310560,
+      "pr_activity_visibility": "everyone",
+      "effort_count": 10
+    },
+    "xoms": {
+      "kom": "1:22",
+      "qom": "2:02",
+      "overall": "1:22",
+      "destination": {
+        "href": "strava://segments/823463/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 28721891,
+      "title": "Seppe Petit",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/28721891/8625605/10/large.jpg",
+      "effort_description": "44 efforts in the last 90 days",
+      "effort_count": "44",
+      "effort_counts": {
+        "overall": "44 efforts",
+        "female": "3 efforts"
+      },
+      "destination": "strava://segments/823463/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "kasteeldreef",
+      "segment_id": 823463,
+      "ourKOM": "nee",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 1250676,
+    "resource_state": 3,
+    "name": "Kattenberg",
+    "activity_type": "Ride",
+    "distance": 706.971,
+    "average_grade": 6.8,
+    "maximum_grade": 11.9,
+    "elevation_high": 62.1,
+    "elevation_low": 14.3,
+    "start_latlng": [
+      50.8539429679513,
+      3.637137031182647
+    ],
+    "end_latlng": [
+      50.84870997816324,
+      3.642631033435464
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/XJTB3HONVEFKPZCPGSD4PRHVYYIUFAGY2JSPE2RBYCCJOXDBSKVAPXLWDRQPOVMYTDNI4XSUFPHYK6KZRMCH4G2F",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/XJTB3HONVEFKPZCPGSD4PRHVYYIUFAGY2JSPE2RBYCCJOXDBSKVAPXLWDRQPOVMYTDNI4XSUFPHYK6KZRMCH4G2F",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/BXXLWRFXCS4ZBGQNJPYRB6D32Z6KSO5GOFD3AXA4K3IOHTSYUHRVQRCN6SLXP2DJJWYJKYBCXGBS377K2RZJMXF4"
+    },
+    "climb_category": 0,
+    "city": "Oudenaarde",
+    "state": "Vlaams Gewest",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2012-04-18T20:54:43Z",
+    "updated_at": "2021-05-20T08:02:10Z",
+    "total_elevation_gain": 47.7594,
+    "map": {
+      "id": "s1250676",
+      "polyline": "clkuHakeUhAeDlCkEf@i@~MyK~@u@pBuBt@c@lAeA",
+      "resource_state": 3
+    },
+    "effort_count": 44524,
+    "athlete_count": 18638,
+    "star_count": 428,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 96,
+      "pr_date": "2023-05-28",
+      "pr_visibility": "everyone",
+      "pr_activity_id": 9157869347,
+      "pr_activity_visibility": "everyone",
+      "effort_count": 3
+    },
+    "xoms": {
+      "kom": "1:08",
+      "qom": "1:43",
+      "overall": "1:08",
+      "destination": {
+        "href": "strava://segments/1250676/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 32774127,
+      "title": "Tijl Thomas",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/32774127/12116641/3/large.jpg",
+      "effort_description": "14 efforts in the last 90 days",
+      "effort_count": "14",
+      "effort_counts": {
+        "overall": "14 efforts",
+        "female": "4 efforts"
+      },
+      "destination": "strava://segments/1250676/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Kattenberg",
+      "segment_id": 1250676,
+      "ourKOM": "ja",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 16436387,
+    "resource_state": 3,
+    "name": "Keiweg-Leberg",
+    "activity_type": "Ride",
+    "distance": 1069.7,
+    "average_grade": 4.1,
+    "maximum_grade": 19.3,
+    "elevation_high": 92.9,
+    "elevation_low": 49.0,
+    "start_latlng": [
+      50.827949,
+      3.716508
+    ],
+    "end_latlng": [
+      50.829957,
+      3.72603
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/WE4VABA7IIUXQZSAXS4IXP3IWOLZOGNVYO7VXM3FM2ZPNRIRCYA7QKLZJIQTPYG5BKNBQ6G5C3APHQLCCMZN4ULN",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/WE4VABA7IIUXQZSAXS4IXP3IWOLZOGNVYO7VXM3FM2ZPNRIRCYA7QKLZJIQTPYG5BKNBQ6G5C3APHQLCCMZN4ULN",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/WFR7SFO45T67BVEGP7ZKI2GABXPZN7JOAKY56ZDFQ35SX6NSWD3FH55NBXYEAWUFMQF7G6LIVGLIA6LM5JV55ZZB"
+    },
+    "climb_category": 0,
+    "city": "Brakel",
+    "state": "Vlaanderen",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2017-11-06T10:29:22Z",
+    "updated_at": "2021-05-17T08:07:17Z",
+    "total_elevation_gain": 46.8,
+    "map": {
+      "id": "s16436387",
+      "polyline": "sifuHc{tUEeA@_@F]JWxAiBZg@v@aADKBkBE}En@wDBIRO`A[XQp@y@Xc@@O?gAMg@k@k@IGo@S_AUk@Yi@c@iAwA_DoCwAeAaAy@oBsBgAuA",
+      "resource_state": 3
+    },
+    "effort_count": 9769,
+    "athlete_count": 5756,
+    "star_count": 19,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": null,
+      "pr_date": null,
+      "pr_visibility": null,
+      "pr_activity_id": null,
+      "pr_activity_visibility": null,
+      "effort_count": 0
+    },
+    "xoms": {
+      "kom": "1:44",
+      "qom": "2:21",
+      "overall": "1:44",
+      "destination": {
+        "href": "strava://segments/16436387/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 42521991,
+      "title": "Jonas Parez",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/42521991/12121667/22/large.jpg",
+      "effort_description": "26 efforts in the last 90 days",
+      "effort_count": "26",
+      "effort_counts": {
+        "overall": "26 efforts",
+        "female": "2 efforts"
+      },
+      "destination": "strava://segments/16436387/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Keiweg-Leberg",
+      "segment_id": 16436387,
+      "ourKOM": "nee",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 768022,
+    "resource_state": 3,
+    "name": "Kloosterstraat",
+    "activity_type": "Ride",
+    "distance": 633.25,
+    "average_grade": 8.7,
+    "maximum_grade": 13.4,
+    "elevation_high": 64.2,
+    "elevation_low": 9.0,
+    "start_latlng": [
+      50.77382756397128,
+      3.8828307297080755
+    ],
+    "end_latlng": [
+      50.774310026317835,
+      3.8913113716989756
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/2ZJYC7B625CRLW33TXEMI7QKDYCY5N6SDR7JUYPVIIX27LIAERX5AB7JUSUGOA6DD5H7TWRJKBPF6MW7LLEPEEQ=",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/2ZJYC7B625CRLW33TXEMI7QKDYCY5N6SDR7JUYPVIIX27LIAERX5AB7JUSUGOA6DD5H7TWRJKBPF6MW7LLEPEEQ=",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/MT3I7KSTKK5ATW3HQNHC7CA7UT6BEO57HCBJP65OR2VNGYTXLU56ETSKP3Q7AEVP3YWFLSFSCZSEUNZBVN2LIFQ="
+    },
+    "climb_category": 0,
+    "city": "Geraardsbergen",
+    "state": "Vlaams Gewest",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2011-09-24T11:57:29Z",
+    "updated_at": "2021-05-20T08:02:06Z",
+    "total_elevation_gain": 55.0,
+    "map": {
+      "id": "s768022",
+      "polyline": "kw{tHujuVOg@KgAKi@I}@I]Go@KuB?_@NuBEoELqFEm@W{Aw@sCUgACu@N_ARs@TiAJqA",
+      "resource_state": 3
+    },
+    "effort_count": 21921,
+    "athlete_count": 9130,
+    "star_count": 83,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": null,
+      "pr_date": null,
+      "pr_visibility": null,
+      "pr_activity_id": null,
+      "pr_activity_visibility": null,
+      "effort_count": 0
+    },
+    "xoms": {
+      "kom": "1:22",
+      "qom": "1:43",
+      "overall": "1:22",
+      "destination": {
+        "href": "strava://segments/768022/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 27944239,
+      "title": "Milan Stiens",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/27944239/33084420/1/large.jpg",
+      "effort_description": "18 efforts in the last 90 days",
+      "effort_count": "18",
+      "effort_counts": {
+        "overall": "18 efforts",
+        "female": "2 efforts"
+      },
+      "destination": "strava://segments/768022/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Kloosterstraat",
+      "segment_id": 768022,
+      "ourKOM": "nee",
+      "attempted": "ja",
+      "ourTime": "1:27",
+      "attempts": []
+    }
+  },
+  {
+    "id": 608878,
+    "resource_state": 3,
+    "name": "Knokteberg",
+    "activity_type": "Ride",
+    "distance": 1358.46,
+    "average_grade": 7.9,
+    "maximum_grade": 13.0,
+    "elevation_high": 117.4,
+    "elevation_low": 26.8,
+    "start_latlng": [
+      50.7522521261126,
+      3.52932538837194
+    ],
+    "end_latlng": [
+      50.7641315460205,
+      3.52841553278267
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/TH47CS32JS7ZNLE4RUCOE34ZJEBJ5DLUFRFXKKU3KOP2B6KHSFR6CPOIGZPYMM3KC4XSMJFFUSMNFNHTBB6STHYO",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/TH47CS32JS7ZNLE4RUCOE34ZJEBJ5DLUFRFXKKU3KOP2B6KHSFR6CPOIGZPYMM3KC4XSMJFFUSMNFNHTBB6STHYO",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/PUWKZ4273DCYNEAIEAAZKZA76EI6W2VMAHMOXJ7ECC62UCUJ473EWPLVUL7HOOAPD7T47MXUYPX4WTRN2GUDO26S"
+    },
+    "climb_category": 1,
+    "city": "Mont De L'Enclus",
+    "state": "Région Wallonne",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2010-04-03T22:46:57Z",
+    "updated_at": "2021-05-20T08:02:03Z",
+    "total_elevation_gain": 90.6,
+    "map": {
+      "id": "s608878",
+      "polyline": "opwtH}hpTeB`@wBCiABs@Xw@^w@XY@K?YE[_@k@]}C{@{CZgFDkDT_BG[DqEz@a@Pe@`@KFWDg@?_BTqBd@uA`@[?UK}AoAe@Ua@AeAZ",
+      "resource_state": 3
+    },
+    "effort_count": 215399,
+    "athlete_count": 51910,
+    "star_count": 1778,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 201,
+      "pr_date": "2021-09-19",
+      "pr_visibility": "everyone",
+      "pr_activity_id": 5986870751,
+      "pr_activity_visibility": "everyone",
+      "effort_count": 17
+    },
+    "xoms": {
+      "kom": "2:25",
+      "qom": "3:01",
+      "overall": "2:25",
+      "destination": {
+        "href": "strava://segments/608878/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 52090023,
+      "title": "Yori Jonckheere",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/52090023/35042676/1/large.jpg",
+      "effort_description": "22 efforts in the last 90 days",
+      "effort_count": "22",
+      "effort_counts": {
+        "overall": "22 efforts",
+        "female": "6 efforts"
+      },
+      "destination": "strava://segments/608878/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Knokteberg",
+      "segment_id": 608878,
+      "ourKOM": "nee",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 19452499,
+    "resource_state": 3,
+    "name": "Koppenberg",
+    "activity_type": "Ride",
+    "distance": 556.595,
+    "average_grade": 11.0,
+    "maximum_grade": 15.2,
+    "elevation_high": 74.3,
+    "elevation_low": 11.2,
+    "start_latlng": [
+      50.812799,
+      3.572204
+    ],
+    "end_latlng": [
+      50.81085,
+      3.579494
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/DWUN6MNOFP4KT6LUFLSEKQSI4YEMEECWKFGTA7SNLALOXLJOIHSKH4DDTMC5LE7ZOPY4LLIMW4RST62FIYXVMCA=",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/DWUN6MNOFP4KT6LUFLSEKQSI4YEMEECWKFGTA7SNLALOXLJOIHSKH4DDTMC5LE7ZOPY4LLIMW4RST62FIYXVMCA=",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/P55JAEJISKCQESSOYAS2APECAVCGHLQBOU3KNV4HPL2FRTZ4ITFH7KKZICHR7TLGMP7B5TXD7QVOGH3APPXQHIQ="
+    },
+    "climb_category": 0,
+    "city": "Oudenaarde",
+    "state": "Vlaanderen",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2018-12-07T12:56:24Z",
+    "updated_at": "2024-12-02T14:25:12Z",
+    "total_elevation_gain": 63.1,
+    "map": {
+      "id": "s19452499",
+      "polyline": "{jcuHeuxTnHi`@VsCz@sF",
+      "resource_state": 3
+    },
+    "effort_count": 265190,
+    "athlete_count": 114880,
+    "star_count": 5727,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": null,
+      "pr_date": null,
+      "pr_visibility": null,
+      "pr_activity_id": null,
+      "pr_activity_visibility": null,
+      "effort_count": 0
+    },
+    "xoms": {
+      "kom": "1:36",
+      "qom": "2:12",
+      "overall": "1:36",
+      "destination": {
+        "href": "strava://segments/19452499/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 30059025,
+      "title": "Guillaume Desmet",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/30059025/17582616/1/large.jpg",
+      "effort_description": "15 efforts in the last 90 days",
+      "effort_count": "15",
+      "effort_counts": {
+        "overall": "15 efforts",
+        "female": "3 efforts"
+      },
+      "destination": "strava://segments/19452499/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Koppenberg",
+      "segment_id": 19452499,
+      "ourKOM": "nee",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 19651427,
+    "resource_state": 3,
+    "name": "Leberg",
+    "activity_type": "Ride",
+    "distance": 861.458,
+    "average_grade": 5.5,
+    "maximum_grade": 11.1,
+    "elevation_high": 96.0,
+    "elevation_low": 58.7,
+    "start_latlng": [
+      50.823529,
+      3.719961
+    ],
+    "end_latlng": [
+      50.830035,
+      3.726205
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/SJJKYVIQMBWUZIFS4VLRKF736WYSIRXPCTTGSOBLQAE6W7O3WK74FJJNYLLQYMQII5JWRY2SNSUP2MBGQ24T7JIM",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/SJJKYVIQMBWUZIFS4VLRKF736WYSIRXPCTTGSOBLQAE6W7O3WK74FJJNYLLQYMQII5JWRY2SNSUP2MBGQ24T7JIM",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/H3BUTYCZBUFIF6A7NCWMTSGJ2SOBKISK2PCVPKMYXCYPKVTLUD3NWRUICEYXQAXBQEY7YX6NIA35CJVOFMN7V625"
+    },
+    "climb_category": 0,
+    "city": "Brakel",
+    "state": "Vlaanderen",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2019-01-10T09:07:38Z",
+    "updated_at": "2024-12-02T14:31:36Z",
+    "total_elevation_gain": 37.3,
+    "map": {
+      "id": "s19651427",
+      "polyline": "aneuHspuUaC_Eg@_@q@UeAiAWI_ACQKIMq@gBMSg@][QuAa@k@_@mB_C_CaCeFoEeDwD",
+      "resource_state": 3
+    },
+    "effort_count": 241032,
+    "athlete_count": 84149,
+    "star_count": 1891,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 84,
+      "pr_date": "2025-09-14",
+      "pr_visibility": "everyone",
+      "pr_activity_id": 15806926835,
+      "pr_activity_visibility": "everyone",
+      "effort_count": 12
+    },
+    "xoms": {
+      "kom": "1:09",
+      "qom": "1:32",
+      "overall": "1:09",
+      "destination": {
+        "href": "strava://segments/19651427/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 1925850,
+      "title": "Stijn Bauters",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/1925850/1477091/14/large.jpg",
+      "effort_description": "9 efforts in the last 90 days",
+      "effort_count": "9",
+      "effort_counts": {
+        "overall": "9 efforts",
+        "female": "4 efforts"
+      },
+      "destination": "strava://segments/19651427/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Leberg",
+      "segment_id": 19651427,
+      "ourKOM": "nee",
+      "attempted": "ja",
+      "ourTime": "1:10",
+      "attempts": []
+    }
+  },
+  {
+    "id": 734831,
+    "resource_state": 3,
+    "name": "Marlboroughstraat",
+    "activity_type": "Ride",
+    "distance": 2258.55,
+    "average_grade": 2.1,
+    "maximum_grade": 7.6,
+    "elevation_high": 110.0,
+    "elevation_low": 52.0,
+    "start_latlng": [
+      50.851080380380154,
+      3.719848981127143
+    ],
+    "end_latlng": [
+      50.833527501672506,
+      3.7317271437495947
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/ANRUBTPXCJFJ3EAILXWYRMCKEXGBBRZ44PEKPB5ROWVYLJGXKE6WCCHPIV6WQVXDF42V43RFOJAJ6DAY7HLPKUY=",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/ANRUBTPXCJFJ3EAILXWYRMCKEXGBBRZ44PEKPB5ROWVYLJGXKE6WCCHPIV6WQVXDF42V43RFOJAJ6DAY7HLPKUY=",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/E5ICXQUS7MCQEXM56GAO5N25VANFI4ZNKWIUHNODSW55YL3CSLYZUUJ7BP62L5IIEU4Q4FWJWBJWG6B6FU4E32Q="
+    },
+    "climb_category": 0,
+    "city": "Brakel",
+    "state": "Vlaams Gewest",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2011-08-27T11:28:34Z",
+    "updated_at": "2021-05-20T08:02:05Z",
+    "total_elevation_gain": 58.0,
+    "map": {
+      "id": "s734831",
+      "polyline": "gzjuH_puUlA_AhB}An@_@p@Qp@EtB@rBEbABf@FpF~AtA^v@Dv@K^MjAs@dC_CtBkBPMRK~@Yv@IdCe@x@_@d@]pCwCfB_B`Aw@x@e@rDg@ZKXQXWV[b@q@~AyD|@kBj@_AtAeBrFoG~IsK`@s@DQ^kB",
+      "resource_state": 3
+    },
+    "effort_count": 86787,
+    "athlete_count": 20939,
+    "star_count": 182,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 290,
+      "pr_date": "2021-06-11",
+      "pr_visibility": "everyone",
+      "pr_activity_id": 5451902535,
+      "pr_activity_visibility": "everyone",
+      "effort_count": 59
+    },
+    "xoms": {
+      "kom": "2:49",
+      "qom": "3:38",
+      "overall": "2:49",
+      "destination": {
+        "href": "strava://segments/734831/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 1641438,
+      "title": "Nicky Van Der Schueren",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/1641438/3704599/3/large.jpg",
+      "effort_description": "51 efforts in the last 90 days",
+      "effort_count": "51",
+      "effort_counts": {
+        "overall": "51 efforts",
+        "female": "7 efforts"
+      },
+      "destination": "strava://segments/734831/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Marlboroughstraat",
+      "segment_id": 734831,
+      "ourKOM": "nee",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 19610435,
+    "resource_state": 3,
+    "name": "Molenberg",
+    "activity_type": "Ride",
+    "distance": 417.704,
+    "average_grade": 7.0,
+    "maximum_grade": 11.3,
+    "elevation_high": 56.1,
+    "elevation_low": 24.8,
+    "start_latlng": [
+      50.858241,
+      3.700204
+    ],
+    "end_latlng": [
+      50.860679,
+      3.704233
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/YKNCFZ5LBHJFXKLZWXH2FQSHFKMZL7MKIFB5UBJMDMA6IWMSI5ZFLARD4DI3V3ZAPGMHBOHMRRF2MPNYZX3YQLYZ",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/YKNCFZ5LBHJFXKLZWXH2FQSHFKMZL7MKIFB5UBJMDMA6IWMSI5ZFLARD4DI3V3ZAPGMHBOHMRRF2MPNYZX3YQLYZ",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/KDM3VCDQ76XME5BDWNHZWZMMEVBQGRBLZIOGK4V6KAN4QBVWGYJ25HCQSAJUJVH6EHE2VOIXE4YVCVR7P4UMHUYY"
+    },
+    "climb_category": 0,
+    "city": "Zwalm",
+    "state": "Vlaanderen",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2019-01-04T14:26:32Z",
+    "updated_at": "2024-12-02T14:22:35Z",
+    "total_elevation_gain": 31.3,
+    "map": {
+      "id": "s19610435",
+      "polyline": "agluHauqUi@Oc@AOIKe@UqBe@aC_BaE_@c@OKq@QGI_@gAsAaD",
+      "resource_state": 3
+    },
+    "effort_count": 207452,
+    "athlete_count": 79660,
+    "star_count": 2002,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 70,
+      "pr_date": "2021-03-20",
+      "pr_visibility": "everyone",
+      "pr_activity_id": 4978152569,
+      "pr_activity_visibility": "everyone",
+      "effort_count": 4
+    },
+    "xoms": {
+      "kom": "42s",
+      "qom": "1:04",
+      "overall": "42s",
+      "destination": {
+        "href": "strava://segments/19610435/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 59915284,
+      "title": "Martijn Messiaen",
+      "profile": "https://graph.facebook.com/1491208517725443/picture?height=256&width=256",
+      "effort_description": "12 efforts in the last 90 days",
+      "effort_count": "12",
+      "effort_counts": {
+        "overall": "12 efforts",
+        "female": "2 efforts"
+      },
+      "destination": "strava://segments/19610435/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Molenberg",
+      "segment_id": 19610435,
+      "ourKOM": "nee",
+      "attempted": "ja",
+      "ourTime": "0:48",
+      "attempts": []
+    }
+  },
+  {
+    "id": 608907,
+    "resource_state": 3,
+    "name": "Muur - Kapelmuur (zonder Vesten)",
+    "activity_type": "Ride",
+    "distance": 816.24,
+    "average_grade": 10.0,
+    "maximum_grade": 30.4,
+    "elevation_high": 110.2,
+    "elevation_low": 28.8,
+    "start_latlng": [
+      50.7735886797309,
+      3.88274288736284
+    ],
+    "end_latlng": [
+      50.7723207492381,
+      3.89042850583792
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/YYDSD3B4GBF7TKTNHUVYRQERAVIX25LOR6P6XMB7DQJ4W6ZTMXYE62BBAS5JRWEXGEZW7X3HRUTG37ACBVHSF3BT",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/YYDSD3B4GBF7TKTNHUVYRQERAVIX25LOR6P6XMB7DQJ4W6ZTMXYE62BBAS5JRWEXGEZW7X3HRUTG37ACBVHSF3BT",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/Y4PS7AUQTIBV3VDLDPA4B3DICPB5CHC25HQYFMUDYF3BB33FB2MGBFQWLAUAHMLDIVNI24KB2QY5MQ4WGCRKQC2S"
+    },
+    "climb_category": 1,
+    "city": "Geraardsbergen",
+    "state": "Vlaams Gewest",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2010-04-04T02:40:48Z",
+    "updated_at": "2021-05-20T08:02:03Z",
+    "total_elevation_gain": 79.4,
+    "map": {
+      "id": "s608907",
+      "polyline": "{u{tHcjuVO{@?e@GSMUEOOWK_@YiDIiC@mACK@[Ei@F_BLU^M^]`@u@RUPe@LQRMNORK^Cj@BJGLYNo@LSPCFDBFPAl@L^AVWJOA_@DEDO@KAIEIm@g@a@_A]UESBaAEM[e@Mo@",
+      "resource_state": 3
+    },
+    "effort_count": 63139,
+    "athlete_count": 32913,
+    "star_count": 127,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 168,
+      "pr_date": "2023-05-28",
+      "pr_visibility": "everyone",
+      "pr_activity_id": 9157869347,
+      "pr_activity_visibility": "everyone",
+      "effort_count": 2
+    },
+    "xoms": {
+      "kom": "2:19",
+      "qom": "2:46",
+      "overall": "2:19",
+      "destination": {
+        "href": "strava://segments/608907/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 11394538,
+      "title": "Johan Deschepper",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/11394538/9353271/5/large.jpg",
+      "effort_description": "15 efforts in the last 90 days",
+      "effort_count": "15",
+      "effort_counts": {
+        "overall": "15 efforts",
+        "female": "2 efforts"
+      },
+      "destination": "strava://segments/608907/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Muur-Kapelmuur",
+      "segment_id": 608907,
+      "ourKOM": "nee",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 662298,
+    "resource_state": 3,
+    "name": "Nellekensstraat",
+    "activity_type": "Ride",
+    "distance": 1206.17,
+    "average_grade": 3.9,
+    "maximum_grade": 13.9,
+    "elevation_high": 107.0,
+    "elevation_low": 60.2,
+    "start_latlng": [
+      50.82078851759434,
+      4.068314200267196
+    ],
+    "end_latlng": [
+      50.81485823728144,
+      4.079573526978493
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/N4NZ6Z3DKY5SVK755ZPFQ5I6C6E7EH6TYIMWSKRQLVGEPTNEI6SEQA5POSQ5WIB3K4QAG6HGCIJIAW2IXXVUHMY=",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/N4NZ6Z3DKY5SVK755ZPFQ5I6C6E7EH6TYIMWSKRQLVGEPTNEI6SEQA5POSQ5WIB3K4QAG6HGCIJIAW2IXXVUHMY=",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/SN6Q4EOOPEGDGAZPA54UA4COM7OJFMUXLIC5ZTYYH5UJRNGE4FM2DYMFXGF3YHFLEB6XOR6YMPT2C7L33YFED3A="
+    },
+    "climb_category": 0,
+    "city": "Ninove",
+    "state": "Vlaams Gewest",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2011-06-06T13:31:28Z",
+    "updated_at": "2021-05-20T08:02:04Z",
+    "total_elevation_gain": 46.8,
+    "map": {
+      "id": "s662298",
+      "polyline": "{|duH}qyWZUlBeAx@_@`Bm@j@QvAg@PMb@Kb@S^IJDVSF@F?HGLADEZc@J?NEHIt@c@\\Od@_@\\QZ_@L]NiAf@}AL{@FORYJILG\\GLGLOFUDYFu@BsA^cE?iBIgC@cCVsDBcB?{DDq@\\aC",
+      "resource_state": 3
+    },
+    "effort_count": 38959,
+    "athlete_count": 11511,
+    "star_count": 148,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": null,
+      "pr_date": null,
+      "pr_visibility": null,
+      "pr_activity_id": null,
+      "pr_activity_visibility": null,
+      "effort_count": 0
+    },
+    "xoms": {
+      "kom": "2:06",
+      "qom": "2:48",
+      "overall": "2:06",
+      "destination": {
+        "href": "strava://segments/662298/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 5892737,
+      "title": "Gunther Slagmulder",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/5892737/2068287/1/large.jpg",
+      "effort_description": "9 efforts in the last 90 days",
+      "effort_count": "9",
+      "effort_counts": {
+        "overall": "9 efforts",
+        "female": "4 efforts"
+      },
+      "destination": "strava://segments/662298/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Nellekensberg",
+      "segment_id": 662298,
+      "ourKOM": "nee",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 1174241,
+    "resource_state": 3,
+    "name": "Oude Kruiskens (kasseien)",
+    "activity_type": "Ride",
+    "distance": 453.2,
+    "average_grade": 8.2,
+    "maximum_grade": 26.5,
+    "elevation_high": 91.8,
+    "elevation_low": 54.8,
+    "start_latlng": [
+      50.756905088201165,
+      3.5913963988423347
+    ],
+    "end_latlng": [
+      50.7599185500294,
+      3.587375935167074
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/BJNVQU7N3H54XJLKFBU3A5LZF6W647KAH3HLXVDCRDTFNFNKQB2IKGIVBWVBHPDJ6SWAHICSR6ZK7CTV2RKONMI=",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/BJNVQU7N3H54XJLKFBU3A5LZF6W647KAH3HLXVDCRDTFNFNKQB2IKGIVBWVBHPDJ6SWAHICSR6ZK7CTV2RKONMI=",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/IYZ33XHKRV4GTBDBPSPRYU2PDFQMEBMPRXH6R6F2XNBFHPSYGWWKRRJXAYCDQC4IXI6XJYGEMP4K2SEMPZ5G7QA="
+    },
+    "climb_category": 0,
+    "city": "Ronse",
+    "state": "Vlaams Gewest",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2012-04-03T11:52:10Z",
+    "updated_at": "2021-05-20T08:02:09Z",
+    "total_elevation_gain": 37.0,
+    "map": {
+      "id": "s1174241",
+      "polyline": "smxtHem|Tq@p@}AvBGPMLGXWh@UVELQRu@~Ai@h@Yb@aAf@a@Ns@l@U^GDa@dAQx@A`@",
+      "resource_state": 3
+    },
+    "effort_count": 189929,
+    "athlete_count": 87874,
+    "star_count": 218,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 78,
+      "pr_date": "2021-03-20",
+      "pr_visibility": "everyone",
+      "pr_activity_id": 4978152569,
+      "pr_activity_visibility": "everyone",
+      "effort_count": 2
+    },
+    "xoms": {
+      "kom": "56s",
+      "qom": "1:13",
+      "overall": "56s",
+      "destination": {
+        "href": "strava://segments/1174241/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 46112870,
+      "title": "Jelle R",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/46112870/12780894/8/large.jpg",
+      "effort_description": "7 efforts in the last 90 days",
+      "effort_count": "7",
+      "effort_counts": {
+        "overall": "7 efforts",
+        "female": "2 efforts"
+      },
+      "destination": "strava://segments/1174241/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Oude Kruiskens",
+      "segment_id": 1174241,
+      "ourKOM": "nee",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 21693457,
+    "resource_state": 3,
+    "name": "Nokereberg",
+    "activity_type": "Ride",
+    "distance": 316.648,
+    "average_grade": 5.8,
+    "maximum_grade": 6.8,
+    "elevation_high": 57.3,
+    "elevation_low": 38.3,
+    "start_latlng": [
+      50.883929,
+      3.511376
+    ],
+    "end_latlng": [
+      50.886196,
+      3.508801
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/BQI7RK7BM56PTBNHSDSSCKOFN64IWYZL4DO2NPHGP6ETTMDP5CZ3LFXR3VCJZJTFG2UTYU5MVLUCG5F5SQ5UCW5T",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/BQI7RK7BM56PTBNHSDSSCKOFN64IWYZL4DO2NPHGP6ETTMDP5CZ3LFXR3VCJZJTFG2UTYU5MVLUCG5F5SQ5UCW5T",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/UHXZAMO5VFXXNDPZUAVRJJTCYZDFYATVRO7N52D2H6UL5C4KBXJGIVVPPMQX3CEYXN4DE7F6EEVWYYZ772FPNDB3"
+    },
+    "climb_category": 0,
+    "city": "Kruisem",
+    "state": "Vlaanderen",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2019-09-04T10:04:32Z",
+    "updated_at": "2024-12-02T13:20:36Z",
+    "total_elevation_gain": 19.0,
+    "map": {
+      "id": "s21693457",
+      "polyline": "qgquH{xlTi@l@iAx@i@ViATyEhJ",
+      "resource_state": 3
+    },
+    "effort_count": 189630,
+    "athlete_count": 45974,
+    "star_count": 2672,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 46,
+      "pr_date": "2021-03-20",
+      "pr_visibility": "everyone",
+      "pr_activity_id": 4978152569,
+      "pr_activity_visibility": "everyone",
+      "effort_count": 2
+    },
+    "xoms": {
+      "kom": "20s",
+      "qom": "24s",
+      "overall": "20s",
+      "destination": {
+        "href": "strava://segments/21693457/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 65309355,
+      "title": "Sonny Callens",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/65309355/33341936/2/large.jpg",
+      "effort_description": "24 efforts in the last 90 days",
+      "effort_count": "24",
+      "effort_counts": {
+        "overall": "24 efforts",
+        "female": "5 efforts"
+      },
+      "destination": "strava://segments/21693457/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Nokereberg",
+      "segment_id": 21693457,
+      "ourKOM": "nee",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 2580334,
+    "resource_state": 3,
+    "name": "Onderbossenaarstraat",
+    "activity_type": "Ride",
+    "distance": 827.537,
+    "average_grade": 4.9,
+    "maximum_grade": 9.4,
+    "elevation_high": 95.7,
+    "elevation_low": 46.4,
+    "start_latlng": [
+      50.80949,
+      3.624031
+    ],
+    "end_latlng": [
+      50.805834,
+      3.632986
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/4NLE33VYSADIHKI2X5NHVLYXSFUIT77YS2KWUDO7NW67JBBOMIJNSLDVLWOJWNAGKVYT26RA2HQC6T7JQ3T2TSDR",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/4NLE33VYSADIHKI2X5NHVLYXSFUIT77YS2KWUDO7NW67JBBOMIJNSLDVLWOJWNAGKVYT26RA2HQC6T7JQ3T2TSDR",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/BOFQOJQQ4LW5FTOW7VQBPAQ4554Z3EX6RUPSWYOTN4XQBQFZZSD5XG7UT5FVPK6K3UOVCALCMJLDONUBBMCGT5T4"
+    },
+    "climb_category": 0,
+    "city": "Maarkedal",
+    "state": "Vlaams Gewest",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2012-10-15T16:02:47Z",
+    "updated_at": "2021-05-20T08:02:20Z",
+    "total_elevation_gain": 49.286,
+    "map": {
+      "id": "s2580334",
+      "polyline": "ivbuHeybU`@U?_AOwFDsCf@kDlAiGx@oBf@cAtCmCrFsFVe@rAkEAu@GG",
+      "resource_state": 3
+    },
+    "effort_count": 62985,
+    "athlete_count": 29155,
+    "star_count": 43,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 138,
+      "pr_date": "2020-01-25",
+      "pr_visibility": "everyone",
+      "pr_activity_id": 3042360786,
+      "pr_activity_visibility": "everyone",
+      "effort_count": 1
+    },
+    "xoms": {
+      "kom": "1:19",
+      "qom": "1:38",
+      "overall": "1:19",
+      "destination": {
+        "href": "strava://segments/2580334/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 37131802,
+      "title": "Hasan Thooft",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/37131802/11047290/3/large.jpg",
+      "effort_description": "42 efforts in the last 90 days",
+      "effort_count": "42",
+      "effort_counts": {
+        "overall": "42 efforts",
+        "female": "10 efforts"
+      },
+      "destination": "strava://segments/2580334/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Onderbossenaarstraat",
+      "segment_id": 2580334,
+      "ourKOM": "nee",
+      "attempted": "ja",
+      "ourTime": "1:26",
+      "attempts": []
+    }
+  },
+  {
+    "id": 608879,
+    "resource_state": 3,
+    "name": "Oude Kwaremont",
+    "activity_type": "Ride",
+    "distance": 2509.38,
+    "average_grade": 3.6,
+    "maximum_grade": 12.8,
+    "elevation_high": 106.6,
+    "elevation_low": 16.0,
+    "start_latlng": [
+      50.7894958555698,
+      3.52419105358422
+    ],
+    "end_latlng": [
+      50.7685506530106,
+      3.53052391670644
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/B67TP3YWWOCGS5SXUD55J6RJ7KWBRX7SYOH55CEGZKZFL72OOATNRCZUUERYK336AEKNXZ7PZO3SWBMQBF3KJCI=",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/B67TP3YWWOCGS5SXUD55J6RJ7KWBRX7SYOH55CEGZKZFL72OOATNRCZUUERYK336AEKNXZ7PZO3SWBMQBF3KJCI=",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/MQSYZECBHYLFR7F6UM5FQOZUTNCRU6OKU6MNZY4YAG6SIZCUZEBKQANL3OE3OHU6XIIDM24NA47KJIY3UJSVZSI="
+    },
+    "climb_category": 1,
+    "city": "Kluisbergen",
+    "state": "Vlaams Gewest",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2010-04-03T22:51:24Z",
+    "updated_at": "2021-05-20T08:02:03Z",
+    "total_elevation_gain": 90.6,
+    "map": {
+      "id": "s608879",
+      "polyline": "iy~tHeioTrABrAKpA[pA]tBy@`@Nv@~AHL~@A`AgA~@y@TMh@URG|AIhBUP@r@Nb@?LC~@m@rAqA`AoAXON?`@FdA^h@b@TJVDzBTbBCf@Od@CrAXdAHr@Xz@h@LDf@BZAXLf@Db@CZATET?jAMLEb@_@v@a@t@UxBi@z@]TCtAcAtCwCjA{@jA[lAMbAg@bBcA~Aw@hAoA~@_Ab@]\\a@LI`@QLM~BmCbA{@fCz@",
+      "resource_state": 3
+    },
+    "effort_count": 105225,
+    "athlete_count": 48759,
+    "star_count": 529,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 453,
+      "pr_date": "2020-01-25",
+      "pr_visibility": "everyone",
+      "pr_activity_id": 3042360786,
+      "pr_activity_visibility": "everyone",
+      "effort_count": 1
+    },
+    "xoms": {
+      "kom": "4:28",
+      "qom": "5:37",
+      "overall": "4:28",
+      "destination": {
+        "href": "strava://segments/608879/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 13168303,
+      "title": "Vincent Baert 🇧🇪",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/13168303/14099531/2/large.jpg",
+      "effort_description": "13 efforts in the last 90 days",
+      "effort_count": "13",
+      "effort_counts": {
+        "overall": "13 efforts",
+        "female": "3 efforts"
+      },
+      "destination": "strava://segments/608879/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Oude Kwaremont",
+      "segment_id": 608879,
+      "ourKOM": "nee",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 608906,
+    "resource_state": 3,
+    "name": "Parikeberg",
+    "activity_type": "Ride",
+    "distance": 641.98,
+    "average_grade": 4.8,
+    "maximum_grade": 15.2,
+    "elevation_high": 87.2,
+    "elevation_low": 56.2,
+    "start_latlng": [
+      50.7817120850086,
+      3.80143607966602
+    ],
+    "end_latlng": [
+      50.7779502868652,
+      3.80648248828948
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/U6L3STUYRKDYXPJ5YOZTYH5TUEYXANSAHM5JOASJZ7KKELMIP67O2SNBMGNP6LGXAI7NRYPISTL4B5ODK5ICKKA=",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/U6L3STUYRKDYXPJ5YOZTYH5TUEYXANSAHM5JOASJZ7KKELMIP67O2SNBMGNP6LGXAI7NRYPISTL4B5ODK5ICKKA=",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/NXOJNMRBSPCTPLNHTZJTERXTL4AUJPLERP6EAH7EO4HRVGYO6MNLZIMMOEXCGEJFZI4NN6PF74VYWX7RU3JAYVA="
+    },
+    "climb_category": 0,
+    "city": "Brakel",
+    "state": "Vlaams Gewest",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2010-04-04T01:53:48Z",
+    "updated_at": "2021-05-20T08:02:03Z",
+    "total_elevation_gain": 30.6,
+    "map": {
+      "id": "s608906",
+      "polyline": "uh}tH}meV`@[ZO`@_@j@_@\\EXM^GVM\\GFMLMdCs@b@GJG`@g@FQH{@@mATs@Vi@JQTYnAs@l@ULOXq@Ho@Ae@i@cE",
+      "resource_state": 3
+    },
+    "effort_count": 100354,
+    "athlete_count": 47137,
+    "star_count": 207,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 85,
+      "pr_date": "2023-07-18",
+      "pr_visibility": "everyone",
+      "pr_activity_id": 9473125495,
+      "pr_activity_visibility": "everyone",
+      "effort_count": 21
+    },
+    "xoms": {
+      "kom": "56s",
+      "qom": "1:17",
+      "overall": "56s",
+      "destination": {
+        "href": "strava://segments/608906/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 7933974,
+      "title": "Jordi Baert",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/7933974/34986469/3/large.jpg",
+      "effort_description": "27 efforts in the last 90 days",
+      "effort_count": "27",
+      "effort_counts": {
+        "overall": "27 efforts",
+        "female": "8 efforts"
+      },
+      "destination": "strava://segments/608906/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Parikeberg",
+      "segment_id": 608906,
+      "ourKOM": "nee",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 640400,
+    "resource_state": 3,
+    "name": "Paterberg",
+    "activity_type": "Ride",
+    "distance": 349.701,
+    "average_grade": 13.4,
+    "maximum_grade": 18.7,
+    "elevation_high": 72.9,
+    "elevation_low": 27.7,
+    "start_latlng": [
+      50.782690923660994,
+      3.544053817167878
+    ],
+    "end_latlng": [
+      50.78210477717221,
+      3.548896461725235
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/2N5KWTPETHM2AOKMICSSLFVUPGSL5F6736JDUMQ2QEMKYV37S3K75AWL7EVPKCTKRY4RKAOYE7HEMVL5O7STPUQ=",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/2N5KWTPETHM2AOKMICSSLFVUPGSL5F6736JDUMQ2QEMKYV37S3K75AWL7EVPKCTKRY4RKAOYE7HEMVL5O7STPUQ=",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/B7ZEYADRS4GVP7K6JKZ7A4YQ2YTZ55TEMXFYUJX36Y5OYI7GI6B4QXSA5DPLXZ7M2UVL5I656UBZ6QPKVWPNMAY="
+    },
+    "climb_category": 0,
+    "city": "Kluisbergen",
+    "state": "Vlaams Gewest",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2011-03-26T17:13:29Z",
+    "updated_at": "2021-05-20T08:02:04Z",
+    "total_elevation_gain": 45.2,
+    "map": {
+      "id": "s640400",
+      "polyline": "sn}tHkesTIeB?o@dAsJXmBVuCBc@@eBDk@",
+      "resource_state": 3
+    },
+    "effort_count": 358581,
+    "athlete_count": 126513,
+    "star_count": 6715,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 87,
+      "pr_date": "2021-09-19",
+      "pr_visibility": "everyone",
+      "pr_activity_id": 5986870751,
+      "pr_activity_visibility": "everyone",
+      "effort_count": 2
+    },
+    "xoms": {
+      "kom": "44s",
+      "qom": "1:08",
+      "overall": "44s",
+      "destination": {
+        "href": "strava://segments/640400/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 82231967,
+      "title": "Krzysztof Kesicki",
+      "profile": "https://lh3.googleusercontent.com/a/ACg8ocKA_OPWrmgqjQVYOxi5PCRr9xCLUw22z3lutqYBqvnYQmecBQ=s96-c",
+      "effort_description": "30 efforts in the last 90 days",
+      "effort_count": "30",
+      "effort_counts": {
+        "overall": "30 efforts",
+        "female": "4 efforts"
+      },
+      "destination": "strava://segments/640400/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Paterberg",
+      "segment_id": 640400,
+      "ourKOM": "nee",
+      "attempted": "ja",
+      "ourTime": "0:48",
+      "attempts": []
+    }
+  },
+  {
+    "id": 912209,
+    "resource_state": 3,
+    "name": "Pijpketel",
+    "activity_type": "Ride",
+    "distance": 342.91,
+    "average_grade": 3.8,
+    "maximum_grade": 8.2,
+    "elevation_high": 33.6,
+    "elevation_low": 20.4,
+    "start_latlng": [
+      50.85266271606088,
+      3.853829512372613
+    ],
+    "end_latlng": [
+      50.851400988176465,
+      3.8578020315617323
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/PHG37ZUJIXALXS4NY5O4CBKRWRO36X76XV4QJN7E7OIH3BKN2PKYLGXVLPTR3J6MMU3DSJ5QEQ47OWDVJACROSDH",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/PHG37ZUJIXALXS4NY5O4CBKRWRO36X76XV4QJN7E7OIH3BKN2PKYLGXVLPTR3J6MMU3DSJ5QEQ47OWDVJACROSDH",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/QP5EI3F5BAH2C4AKX4XP2MPAKUSTIUJMNKMYZBMXRN25EH7VQMNP3LTL42EVMXLC5QLV6PCJ5CRPCZDHPFNH2YOB"
+    },
+    "climb_category": 0,
+    "city": "Zottegem",
+    "state": "Vlaams Gewest",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2012-01-11T18:36:30Z",
+    "updated_at": "2021-05-20T08:02:07Z",
+    "total_elevation_gain": 13.2,
+    "map": {
+      "id": "s912209",
+      "polyline": "cdkuHmuoVJiAHwED_BL{AJk@Te@zC}ERK",
+      "resource_state": 3
+    },
+    "effort_count": 92045,
+    "athlete_count": 16901,
+    "star_count": 11,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 48,
+      "pr_date": "2025-04-08",
+      "pr_visibility": "everyone",
+      "pr_activity_id": 14114199683,
+      "pr_activity_visibility": "everyone",
+      "effort_count": 18
+    },
+    "xoms": {
+      "kom": "25s",
+      "qom": "30s",
+      "overall": "25s",
+      "destination": {
+        "href": "strava://segments/912209/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 12206784,
+      "title": "The Dark Knight",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/12206784/19342594/19/large.jpg",
+      "effort_description": "27 efforts in the last 90 days",
+      "effort_count": "27",
+      "effort_counts": {
+        "overall": "27 efforts",
+        "female": "26 efforts"
+      },
+      "destination": "strava://segments/912209/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Pijpketel",
+      "segment_id": 912209,
+      "ourKOM": "nee",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 1820437,
+    "resource_state": 3,
+    "name": "Pottelberg",
+    "activity_type": "Ride",
+    "distance": 1878.8,
+    "average_grade": 4.4,
+    "maximum_grade": 14.3,
+    "elevation_high": 141.2,
+    "elevation_low": 57.8,
+    "start_latlng": [
+      50.75760941952467,
+      3.711769748479128
+    ],
+    "end_latlng": [
+      50.768564231693745,
+      3.7043258640915155
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/I7MS54WOECIWL6LGM3HV6VD75K4ZUWE4Z2FAVYSRJC4KCDPYXBLGUVF3GHWBVLXJUPD3T3GABZ3U5GV4CVZ3ATA=",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/I7MS54WOECIWL6LGM3HV6VD75K4ZUWE4Z2FAVYSRJC4KCDPYXBLGUVF3GHWBVLXJUPD3T3GABZ3U5GV4CVZ3ATA=",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/TFPBMQRBNG3RESG6L72BRZAJ64U5Y23CGFFMPYP65JXZAOPOZ4CZYFHQRTV7337ULPCEYL54JTDYIZ275OLXMDY="
+    },
+    "climb_category": 1,
+    "city": "Flobecq",
+    "state": "Région wallonne",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": true,
+    "starred": false,
+    "created_at": "2012-07-24T12:55:39Z",
+    "updated_at": "2021-05-19T08:02:06Z",
+    "total_elevation_gain": 83.4,
+    "map": {
+      "id": "s1820437",
+      "polyline": "_rxtHq}sUwAjEc@d@cAf@sA`AWHO?OI[a@kAwCk@kAe@mAgA_C[c@SAWDyD|Cy@t@]`@]p@O~@IbAUx@KPMH]Hq@BgBC_@BUJUXQf@MXW|@YXMBa@I_@QKKMUCe@OyAMm@AGYWKBKHw@tAs@|Ai@bA_@f@MBO?QEIGe@o@{@cBOMIAI@_@f@aAvBa@`BQfB?d@PlDTpC@d@CVQ~@_@dAqAjC",
+      "resource_state": 3
+    },
+    "effort_count": 189264,
+    "athlete_count": 37666,
+    "star_count": 25,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 264,
+      "pr_date": "2023-04-17",
+      "pr_visibility": "everyone",
+      "pr_activity_id": 8907658688,
+      "pr_activity_visibility": "everyone",
+      "effort_count": 75
+    },
+    "xoms": {
+      "kom": "3:14",
+      "qom": "3:52",
+      "overall": "3:14",
+      "destination": {
+        "href": "strava://segments/1820437/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": null,
+    "kings_data": {
+      "segment_name": "pottelberg",
+      "segment_id": 1820437,
+      "ourKOM": "ja",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 2975835,
+    "resource_state": 3,
+    "name": "Pollareberg",
+    "activity_type": "Ride",
+    "distance": 638.209,
+    "average_grade": 5.9,
+    "maximum_grade": 8.9,
+    "elevation_high": 51.8,
+    "elevation_low": 14.2,
+    "start_latlng": [
+      50.822273,
+      4.006725
+    ],
+    "end_latlng": [
+      50.817158,
+      4.006852
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/V4P6AOADHH6VZ3GCRRX5Z7ZDPMZQIKHKWM43JD7BSZ43VKVL5MHTGK5PB4GXEHU4D7JTKNYXM3UPVF3TWBZXKDI=",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/V4P6AOADHH6VZ3GCRRX5Z7ZDPMZQIKHKWM43JD7BSZ43VKVL5MHTGK5PB4GXEHU4D7JTKNYXM3UPVF3TWBZXKDI=",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/6H5CDIGDN4C4A7CZ63ZGYMTLNDQPCRCO67VUPC3SEN4UMFF5VZJKXS7XBUX6JNFZITF2BE73TL6YLMYFMX2CSPA="
+    },
+    "climb_category": 0,
+    "city": "Ninove",
+    "state": "Vlaams Gewest",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2012-12-15T13:25:26Z",
+    "updated_at": "2021-05-20T08:02:23Z",
+    "total_elevation_gain": 37.595,
+    "map": {
+      "id": "s2975835",
+      "polyline": "efeuH_qmW`EdDtDjCbAV`EFn@If@Ob@]~@kAdAmBx@cATYn@[",
+      "resource_state": 3
+    },
+    "effort_count": 25470,
+    "athlete_count": 6330,
+    "star_count": 25,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": null,
+      "pr_date": null,
+      "pr_visibility": null,
+      "pr_activity_id": null,
+      "pr_activity_visibility": null,
+      "effort_count": 0
+    },
+    "xoms": {
+      "kom": "55s",
+      "qom": "1:17",
+      "overall": "55s",
+      "destination": {
+        "href": "strava://segments/2975835/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 10073709,
+      "title": "Patrick Godart",
+      "profile": "avatar/athlete/large.png",
+      "effort_description": "37 efforts in the last 90 days",
+      "effort_count": "37",
+      "effort_counts": {
+        "overall": "37 efforts",
+        "female": "2 efforts"
+      },
+      "destination": "strava://segments/2975835/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Pollareberg",
+      "segment_id": 2975835,
+      "ourKOM": "nee",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 642000,
+    "resource_state": 3,
+    "name": "Rekelberg",
+    "activity_type": "Ride",
+    "distance": 1084.94,
+    "average_grade": 4.3,
+    "maximum_grade": 10.6,
+    "elevation_high": 102.4,
+    "elevation_low": 55.4,
+    "start_latlng": [
+      50.84819482639432,
+      3.7499892991036177
+    ],
+    "end_latlng": [
+      50.84716762416065,
+      3.7379565741866827
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/37JG3EKMMYK3WODLK2AOXF26J5C4DVKSB4OQXSFZA45RIZDB4G7PP6O4VX2AA26CVGPTAON32X3Z7GVHID2GOHI=",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/37JG3EKMMYK3WODLK2AOXF26J5C4DVKSB4OQXSFZA45RIZDB4G7PP6O4VX2AA26CVGPTAON32X3Z7GVHID2GOHI=",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/IJL4HTRQKTXJP74NV4GYL3MFOOO4IMU74I6HLS6COFZK73GIGSLT6GSF4EI3N6PU77D7BMLYDRRJMZ7TXRGJ4PA="
+    },
+    "climb_category": 0,
+    "city": "Zwalm",
+    "state": "Vlaams Gewest",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2011-04-04T16:26:11Z",
+    "updated_at": "2021-05-20T08:02:04Z",
+    "total_elevation_gain": 47.0,
+    "map": {
+      "id": "s642000",
+      "polyline": "ehjuHkl{Uf@j@x@fBn@`AvAbAz@h@XVRZXh@FXPlCHXZ`@T`@NP^NZVvApBDHBp@]~By@jDOf@m@fA[nAc@vBw@xEKfAiCnQ",
+      "resource_state": 3
+    },
+    "effort_count": 15695,
+    "athlete_count": 4866,
+    "star_count": 31,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": null,
+      "pr_date": null,
+      "pr_visibility": null,
+      "pr_activity_id": null,
+      "pr_activity_visibility": null,
+      "effort_count": 0
+    },
+    "xoms": {
+      "kom": "1:48",
+      "qom": "2:20",
+      "overall": "1:48",
+      "destination": {
+        "href": "strava://segments/642000/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 1707483,
+      "title": "Sten Van Gucht #teambreakaway",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/1707483/534294/11/large.jpg",
+      "effort_description": "18 efforts in the last 90 days",
+      "effort_count": "18",
+      "effort_counts": {
+        "overall": "18 efforts",
+        "female": "1 effort"
+      },
+      "destination": "strava://segments/642000/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Rekelberg",
+      "segment_id": 642000,
+      "ourKOM": "nee",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 1415043,
+    "resource_state": 3,
+    "name": "Semmerzake",
+    "activity_type": "Ride",
+    "distance": 315.65,
+    "average_grade": 5.1,
+    "maximum_grade": 9.1,
+    "elevation_high": 19.8,
+    "elevation_low": 3.8,
+    "start_latlng": [
+      50.9448017925024,
+      3.660014346241951
+    ],
+    "end_latlng": [
+      50.9428006131202,
+      3.662809459492564
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/DJLSY7UXCX4LODDUVBS5QVH6G4SKJB4KPSCF7J3WCZ5NXVVPUW7GOCNMMHRKZPOKWOWT3J7JKTLYE2KDB6TUJOI=",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/DJLSY7UXCX4LODDUVBS5QVH6G4SKJB4KPSCF7J3WCZ5NXVVPUW7GOCNMMHRKZPOKWOWT3J7JKTLYE2KDB6TUJOI=",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/V7AAB6LDLSUR5TLLRPZ3ODQRVBWAB2MBJHC66KXC2PXNJ3A77H4UF7D5WJP66CES3Q5XBYELMU4IH3VSSLGQYLA="
+    },
+    "climb_category": 0,
+    "city": "Gavere",
+    "state": "Vlaams Gewest",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2012-05-20T15:47:26Z",
+    "updated_at": "2021-05-20T08:02:11Z",
+    "total_elevation_gain": 16.0,
+    "map": {
+      "id": "s1415043",
+      "polyline": "_d}uHaziUHIPu@HQ^q@`@}@`BwEJKLC^NZGb@o@^}@LQLINA",
+      "resource_state": 3
+    },
+    "effort_count": 12450,
+    "athlete_count": 4045,
+    "star_count": 27,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": null,
+      "pr_date": null,
+      "pr_visibility": null,
+      "pr_activity_id": null,
+      "pr_activity_visibility": null,
+      "effort_count": 0
+    },
+    "xoms": {
+      "kom": "27s",
+      "qom": "38s",
+      "overall": "27s",
+      "destination": {
+        "href": "strava://segments/1415043/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 13040349,
+      "title": "Dries Notte",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/13040349/14856029/1/large.jpg",
+      "effort_description": "8 efforts in the last 90 days",
+      "effort_count": "8",
+      "effort_counts": {
+        "overall": "8 efforts",
+        "female": "4 efforts"
+      },
+      "destination": "strava://segments/1415043/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Semmerzake",
+      "segment_id": 1415043,
+      "ourKOM": "nee",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 14627258,
+    "resource_state": 3,
+    "name": "Statieberg",
+    "activity_type": "Ride",
+    "distance": 2178.4,
+    "average_grade": 2.7,
+    "maximum_grade": 8.8,
+    "elevation_high": 93.6,
+    "elevation_low": 33.7,
+    "start_latlng": [
+      50.755901,
+      3.619255
+    ],
+    "end_latlng": [
+      50.770792,
+      3.633978
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/LFXD2RKXG7KS3KFT2E7PRLH4KCJLFN45UX2QLN4H6QBUKAILV2P2EWVPZQN47JEMPF3SGTJ34CA3ZKWMJWXNNLA=",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/LFXD2RKXG7KS3KFT2E7PRLH4KCJLFN45UX2QLN4H6QBUKAILV2P2EWVPZQN47JEMPF3SGTJ34CA3ZKWMJWXNNLA=",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/QYW4XCYHKWXFWATXQCQRC4WC65UQ45NZJZMC5PDEW7FYI2RAQIEWQT4KO4QBBWFVLYGGNKKTK52Q5HMEN3MFFJA="
+    },
+    "climb_category": 0,
+    "city": "Ronse",
+    "state": "Vlaanderen",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2017-04-17T12:02:33Z",
+    "updated_at": "2021-05-20T08:04:11Z",
+    "total_elevation_gain": 59.9,
+    "map": {
+      "id": "s14627258",
+      "polyline": "kgxtHi{aUqAZ[OSe@wA}E}BaJq@iBc@qBc@eDg@oB}@iB_AcAsAu@gAOk@F[Po@f@EJkBbB]Rq@RQCkAmAg@[u@KI@[AiAJk@?SCQIcBkAq@u@eAoAe@y@a@a@{@?IAaC?i@I}@e@WUYg@uB}F}@eBkAoBm@}@_EiG}DsGQa@kA}Ag@y@Y]CF",
+      "resource_state": 3
+    },
+    "effort_count": 17494,
+    "athlete_count": 5693,
+    "star_count": 11,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": null,
+      "pr_date": null,
+      "pr_visibility": null,
+      "pr_activity_id": null,
+      "pr_activity_visibility": null,
+      "effort_count": 0
+    },
+    "xoms": {
+      "kom": "3:17",
+      "qom": "4:04",
+      "overall": "3:17",
+      "destination": {
+        "href": "strava://segments/14627258/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 2593834,
+      "title": "Chariel 🏊🏽‍♂️🚴🏾‍♀️🏃🏿‍♀️",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/2593834/914243/16/large.jpg",
+      "effort_description": "17 efforts in the last 90 days",
+      "effort_count": "17",
+      "effort_counts": {
+        "overall": "17 efforts",
+        "female": "17 efforts"
+      },
+      "destination": "strava://segments/14627258/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Statieberg",
+      "segment_id": 14627258,
+      "ourKOM": "nee",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 19651432,
+    "resource_state": 3,
+    "name": "Steenbeekberg",
+    "activity_type": "Ride",
+    "distance": 860.584,
+    "average_grade": 7.8,
+    "maximum_grade": 13.3,
+    "elevation_high": 113.7,
+    "elevation_low": 63.7,
+    "start_latlng": [
+      50.796001,
+      3.690489
+    ],
+    "end_latlng": [
+      50.790836,
+      3.699131
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/T5UTWMG67O2Z2VBWHTT45URBH56ZHI24IQLQECSPMNPAUTIZIYZZPJ4QT2OZYKMB3AJIDUCW64UZQXKWYB3ZX5A=",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/T5UTWMG67O2Z2VBWHTT45URBH56ZHI24IQLQECSPMNPAUTIZIYZZPJ4QT2OZYKMB3AJIDUCW64UZQXKWYB3ZX5A=",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/UNQ2YHNWAXJJBZC3TZJOGBHFXRCXOPKJOJYHM4W7HYDKY236XT6M676YU3BCPHVCBZFJIQT6RJL5OFHCPKBALCQ="
+    },
+    "climb_category": 0,
+    "city": "Maarkedal",
+    "state": "Vlaanderen",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2019-01-10T09:11:10Z",
+    "updated_at": "2024-12-02T14:32:14Z",
+    "total_elevation_gain": 50.0,
+    "map": {
+      "id": "s19651432",
+      "polyline": "{a`uHqxoU@u@`@}FJ}@Ne@T[dAw@n@q@`F{HzEcI|C_F|EaI",
+      "resource_state": 3
+    },
+    "effort_count": 24453,
+    "athlete_count": 13342,
+    "star_count": 1686,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": null,
+      "pr_date": null,
+      "pr_visibility": null,
+      "pr_activity_id": null,
+      "pr_activity_visibility": null,
+      "effort_count": 0
+    },
+    "xoms": {
+      "kom": "1:26",
+      "qom": "2:02",
+      "overall": "1:26",
+      "destination": {
+        "href": "strava://segments/19651432/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 27327193,
+      "title": "Renaat Jonckheere",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/27327193/24722298/1/large.jpg",
+      "effort_description": "4 efforts in the last 90 days",
+      "effort_count": "4",
+      "effort_counts": {
+        "overall": "4 efforts",
+        "female": "3 efforts"
+      },
+      "destination": "strava://segments/19651432/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Steenbeekberg",
+      "segment_id": 19651432,
+      "ourKOM": "nee",
+      "attempted": "ja",
+      "ourTime": "1:27",
+      "attempts": []
+    }
+  },
+  {
+    "id": 642009,
+    "resource_state": 3,
+    "name": "Steenbeekdries",
+    "activity_type": "Ride",
+    "distance": 724.1,
+    "average_grade": 2.8,
+    "maximum_grade": 9.2,
+    "elevation_high": 64.2,
+    "elevation_low": 40.2,
+    "start_latlng": [
+      50.80564174801111,
+      3.609639862552285
+    ],
+    "end_latlng": [
+      50.80182295292616,
+      3.615762172266841
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/HDGES4OVPAJBQ5ZLUOUHLDYEKMGKPMDEK6U5QAZJ4NMLHMS4PQAVT56GNWD3UT5QQW5OSVNCPADG5Y7MIPH5SLOR",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/HDGES4OVPAJBQ5ZLUOUHLDYEKMGKPMDEK6U5QAZJ4NMLHMS4PQAVT56GNWD3UT5QQW5OSVNCPADG5Y7MIPH5SLOR",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/ZZEYKFWL7NN4USRUBCIQHGPSXKATZ4FRPC4FNL2LPAQBMTXDKQWUGB2FGOLUZF756E23XHDSB7DZJFJVCPGIEDNZ"
+    },
+    "climb_category": 0,
+    "city": "Maarkedal",
+    "state": "Vlaams Gewest",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2011-04-04T17:09:07Z",
+    "updated_at": "2021-05-20T08:02:04Z",
+    "total_elevation_gain": 24.0,
+    "map": {
+      "id": "s642009",
+      "polyline": "g~auHg_`UX_DD[d@iAd@{@Vc@Na@f@}Ad@yBFEJCVB`@CRKd@K`@BREXAl@H^JhAfAFCFKv@iFt@yFj@kD",
+      "resource_state": 3
+    },
+    "effort_count": 164248,
+    "athlete_count": 81609,
+    "star_count": 434,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": null,
+      "pr_date": null,
+      "pr_visibility": null,
+      "pr_activity_id": null,
+      "pr_activity_visibility": null,
+      "effort_count": 0
+    },
+    "xoms": {
+      "kom": "1:15",
+      "qom": "1:40",
+      "overall": "1:15",
+      "destination": {
+        "href": "strava://segments/642009/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 156608918,
+      "title": "Tom Roose",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/156608918/36352982/1/large.jpg",
+      "effort_description": "3 efforts in the last 90 days",
+      "effort_count": "3",
+      "effort_counts": {
+        "overall": "3 efforts",
+        "female": "2 efforts"
+      },
+      "destination": "strava://segments/642009/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Steenbeekdries",
+      "segment_id": 642009,
+      "ourKOM": "nee",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 33368251,
+    "resource_state": 3,
+    "name": "Stokstraat ()",
+    "activity_type": "Ride",
+    "distance": 1325.1,
+    "average_grade": 5.3,
+    "maximum_grade": 8.2,
+    "elevation_high": 105.9,
+    "elevation_low": 35.5,
+    "start_latlng": [
+      50.803368,
+      3.679417
+    ],
+    "end_latlng": [
+      50.79887,
+      3.694777
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/APS6K6EHXBIQISPWT57EET44XGMIXH3QAP7S5TOWN5I7QP5AKBEU7TPI5V3DHLVD27WWMVCRFXSHXTY6BWGO7YKJ",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/APS6K6EHXBIQISPWT57EET44XGMIXH3QAP7S5TOWN5I7QP5AKBEU7TPI5V3DHLVD27WWMVCRFXSHXTY6BWGO7YKJ",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/4C2CVOC6MMA5LTPLJLLT3UCKYY5ZKF7BVXAVGHEUNFCUDCRRCB663QSIGUL56KKP4PT4GWUKQOBIVVK3II4ZZ7YA"
+    },
+    "climb_category": 0,
+    "city": "Maarkedal",
+    "state": "Vlaams Gewest",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2022-11-30T19:39:13Z",
+    "updated_at": "2022-11-30T19:39:14Z",
+    "total_elevation_gain": 66.175,
+    "map": {
+      "id": "s33368251",
+      "polyline": "_pauHismU|BeCR]Ne@^gBNc@R]jHiItBkCp@mAl@_BfBeF|B{IDWFeA@WAm@_@uDKq@IwBOwBc@_ECq@XoIAyDCmA",
+      "resource_state": 3
+    },
+    "effort_count": 24386,
+    "athlete_count": 9467,
+    "star_count": 1,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 174,
+      "pr_date": "2023-04-17",
+      "pr_visibility": "everyone",
+      "pr_activity_id": 8907658688,
+      "pr_activity_visibility": "everyone",
+      "effort_count": 11
+    },
+    "xoms": {
+      "kom": "2:24",
+      "qom": "2:50",
+      "overall": "2:24",
+      "destination": {
+        "href": "strava://segments/33368251/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 8261866,
+      "title": "Tom Maes",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/8261866/2509912/3/large.jpg",
+      "effort_description": "14 efforts in the last 90 days",
+      "effort_count": "14",
+      "effort_counts": {
+        "overall": "14 efforts",
+        "female": "3 efforts"
+      },
+      "destination": "strava://segments/33368251/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Stokstraat",
+      "segment_id": 33368251,
+      "ourKOM": "nee",
+      "attempted": "ja",
+      "ourTime": "2:35",
+      "attempts": []
+    }
+  },
+  {
+    "id": 17111802,
+    "resource_state": 3,
+    "name": "Tiegemberg",
+    "activity_type": "Ride",
+    "distance": 822.2,
+    "average_grade": 5.4,
+    "maximum_grade": 15.5,
+    "elevation_high": 78.1,
+    "elevation_low": 33.3,
+    "start_latlng": [
+      50.813123,
+      3.470497
+    ],
+    "end_latlng": [
+      50.817712,
+      3.46284
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/DSIIMTXVTRTJ3EXA4CLNU63SSNR75VROAMNSYBWO74QJYYCVVUDVYZCP73DYDILFSMURD4ZU3TK7UPGKICHPNBA=",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/DSIIMTXVTRTJ3EXA4CLNU63SSNR75VROAMNSYBWO74QJYYCVVUDVYZCP73DYDILFSMURD4ZU3TK7UPGKICHPNBA=",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/SB2KCTVTZCHSKCMQKW47J7CHKDMXHUIN7U5HZNMAFKYWINTBJBOP23P3MKSPLIMMF2MTVH4QERLLIFJDEYA3YQA="
+    },
+    "climb_category": 0,
+    "city": "Anzegem",
+    "state": "Vlaanderen",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2018-03-04T16:08:31Z",
+    "updated_at": "2021-05-20T08:04:33Z",
+    "total_elevation_gain": 44.8,
+    "map": {
+      "id": "s17111802",
+      "polyline": "_mcuHqydTk@b@U\\c@hAm@lB[b@g@Vw@Hk@NuATuD`AUJa@\\s@dA_@~@c@~BeBfOQjBMr@WxB",
+      "resource_state": 3
+    },
+    "effort_count": 252836,
+    "athlete_count": 42380,
+    "star_count": 895,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 78,
+      "pr_date": "2023-09-19",
+      "pr_visibility": "everyone",
+      "pr_activity_id": 9880501299,
+      "pr_activity_visibility": "everyone",
+      "effort_count": 24
+    },
+    "xoms": {
+      "kom": "1:01",
+      "qom": "1:18",
+      "overall": "1:01",
+      "destination": {
+        "href": "strava://segments/17111802/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 45392676,
+      "title": "Franky Bijttebier",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/45392676/12645329/1/large.jpg",
+      "effort_description": "35 efforts in the last 90 days",
+      "effort_count": "35",
+      "effort_counts": {
+        "overall": "35 efforts",
+        "female": "21 efforts"
+      },
+      "destination": "strava://segments/17111802/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "Tiegemberg",
+      "segment_id": 17111802,
+      "ourKOM": "nee",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 19651355,
+    "resource_state": 3,
+    "name": "Kouterberg",
+    "activity_type": "Ride",
+    "distance": 1443.13,
+    "average_grade": 3.4,
+    "maximum_grade": 7.9,
+    "elevation_high": 96.4,
+    "elevation_low": 47.4,
+    "start_latlng": [
+      50.799968,
+      3.654242
+    ],
+    "end_latlng": [
+      50.800683,
+      3.640112
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/UGAENK5LXDL3MZJLRXYBQYD3Q5GC7JAFIKTJ5HQ6ZOZMAJQUZYRFGZWT6E3FXG62WB6RDIXRXQJTAG2I2JWO7N22",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/UGAENK5LXDL3MZJLRXYBQYD3Q5GC7JAFIKTJ5HQ6ZOZMAJQUZYRFGZWT6E3FXG62WB6RDIXRXQJTAG2I2JWO7N22",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/UPMZ3GWWV5TOJLIP6T4LJPLZ5DVLABGXJNZE6INH53RM3IMOSXZVTDB4QSXBNOP3HTU3EUUYCH3HSJRWYCZOS2VO"
+    },
+    "climb_category": 0,
+    "city": "Maarkedal",
+    "state": "Vlaanderen",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2019-01-10T08:43:51Z",
+    "updated_at": "2024-12-02T14:33:37Z",
+    "total_elevation_gain": 53.7,
+    "map": {
+      "id": "s19651355",
+      "polyline": "wz`uH}uhUcBvCc@f@oAh@UVQ^y@bCi@|@q@h@iC`AULMJKRqAvEeCfEeBxAWb@Qp@In@AbBD`@JT|@nA~@zAhBrCpDlIrAjDnHxP",
+      "resource_state": 3
+    },
+    "effort_count": 31432,
+    "athlete_count": 17543,
+    "star_count": 1639,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": null,
+      "pr_date": null,
+      "pr_visibility": null,
+      "pr_activity_id": null,
+      "pr_activity_visibility": null,
+      "effort_count": 0
+    },
+    "xoms": {
+      "kom": "2:38",
+      "qom": "3:10",
+      "overall": "2:38",
+      "destination": {
+        "href": "strava://segments/19651355/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 5756388,
+      "title": "Rogier De Smaele",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/5756388/4652432/2/large.jpg",
+      "effort_description": "4 efforts in the last 90 days",
+      "effort_count": "4",
+      "effort_counts": {
+        "overall": "4 efforts",
+        "female": "2 efforts"
+      },
+      "destination": "strava://segments/19651355/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "kouterberg?",
+      "segment_id": 19651355,
+      "ourKOM": "nee",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  },
+  {
+    "id": 18531364,
+    "resource_state": 3,
+    "name": "kruisberg",
+    "activity_type": "Ride",
+    "distance": 1411.7,
+    "average_grade": 5.7,
+    "maximum_grade": 35.3,
+    "elevation_high": 111.5,
+    "elevation_low": 31.2,
+    "start_latlng": [
+      50.749985,
+      3.597049
+    ],
+    "end_latlng": [
+      50.760994,
+      3.587393
+    ],
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/H3TI76QABRDGIFHDDSGN4NWJPYTMXD3SSPHIBNPJAP52M34TDBAMAMHRGT3JYBWF2CGDLSD7TB32T45YBFCQQ3Y=",
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/H3TI76QABRDGIFHDDSGN4NWJPYTMXD3SSPHIBNPJAP52M34TDBAMAMHRGT3JYBWF2CGDLSD7TB32T45YBFCQQ3Y=",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/OVVY3I3BQYQPGKN6B5ADZWIX3TMZZIXX456W5GCI3THIIIFSIAYRNDONZ4OYYRTFSXXOCCCNEEOT3TM7EDP4P4Y="
+    },
+    "climb_category": 1,
+    "city": "Ronse",
+    "state": "Vlaanderen",
+    "country": "Belgium",
+    "private": false,
+    "hazardous": false,
+    "starred": false,
+    "created_at": "2018-08-13T21:29:31Z",
+    "updated_at": "2021-05-20T08:04:46Z",
+    "total_elevation_gain": 80.3,
+    "map": {
+      "id": "s18531364",
+      "polyline": "kbwtHop}TMNq@Zk@d@wAp@oAv@WL[R[Xg@j@q@hAu@`AOZg@r@q@fAwAjBKBU]i@j@gB~Ae@\\_@PYDc@Vm@P]PUHe@Zu@XWXa@Zi@Ze@^c@RQLqAzA_CbD_A~Aq@|ASVMXIJ]RYDa@Lu@j@g@j@GPi@~@GDc@jAMFIBsAIo@?KC",
+      "resource_state": 3
+    },
+    "effort_count": 68777,
+    "athlete_count": 42310,
+    "star_count": 356,
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 252,
+      "pr_date": "2020-01-25",
+      "pr_visibility": "everyone",
+      "pr_activity_id": 3042360786,
+      "pr_activity_visibility": "everyone",
+      "effort_count": 1
+    },
+    "xoms": {
+      "kom": "2:53",
+      "qom": "3:35",
+      "overall": "2:53",
+      "destination": {
+        "href": "strava://segments/18531364/leaderboard",
+        "type": "overall",
+        "name": "All-Time"
+      }
+    },
+    "local_legend": {
+      "athlete_id": 60532909,
+      "title": "Gus Challis",
+      "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/60532909/15434348/13/large.jpg",
+      "effort_description": "3 efforts in the last 90 days",
+      "effort_count": "3",
+      "effort_counts": {
+        "overall": "3 efforts",
+        "female": "2 efforts"
+      },
+      "destination": "strava://segments/18531364/local_legend?categories%5B%5D=overall"
+    },
+    "kings_data": {
+      "segment_name": "kruisberg?",
+      "segment_id": 18531364,
+      "ourKOM": "nee",
+      "attempted": null,
+      "ourTime": null,
+      "attempts": []
+    }
+  }
+]

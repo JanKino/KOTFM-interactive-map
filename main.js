@@ -39,7 +39,7 @@
       });
     });
 
-    fetch("data/segmenten.json")
+    fetch("data/segment_data.json")
         .then(res => res.json())
         .then(segmenten => {
 
@@ -56,6 +56,8 @@
 
             initSegment(seg, map, latlngs, activeSegment);
         });
+
+
         allBounds = L.latLngBounds(allLatLngs);
         map.fitBounds(allBounds);
         showSegmentList(segmentCache, map, activeSegment);
