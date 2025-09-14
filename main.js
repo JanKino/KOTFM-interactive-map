@@ -1,69 +1,136 @@
  import {showSegmentList, initSegment, ActiveSegment, closeSegment, normalSegmentView, selectedSegmentView} from './segments.js';
 
-    // Kaart maken
-    const map = L.map('map');
+// Kaart maken
+const map = L.map('map');
 
-    // OpenStreetMap tiles toevoegen
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-      maxZoom: 19,
-      attribution: '&copy; OpenStreetMap'
-    }).addTo(map);
 
-    let allLatLngs = [];
-    let allBounds = null;
-    let segmentCache = [];
+// OpenStreetMap tiles toevoegen
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+  maxZoom: 19,
+  attribution: '&copy; OpenStreetMap'
+}).addTo(map);
 
-    const activeSegment = new ActiveSegment(null);
-    
+let allLatLngs = [];
+let allBounds = null;
+let segmentCache = [];
 
-    function segmentInView(seg, bounds){
-      const latlngs = polyline.decode(seg.map.polyline);
-      return latlngs.some(latlng => bounds.contains(L.latLng(latlng[0], latlng[1])));
-    }
+const activeSegment = new ActiveSegment(null);
 
-    // update segmentlijst bij verschuiven/zoomen van kaart
-    map.on("moveend", () => {
-      if(!activeSegment.getActive()){
-        const currentBounds = map.getBounds();
-        const visibleSegments = segmentCache.filter(seg => segmentInView(seg, currentBounds));
-        showSegmentList(visibleSegments, map, activeSegment);
+
+function segmentInView(seg, bounds){
+  const latlngs = polyline.decode(seg.map.polyline);
+  return latlngs.some(latlng => bounds.contains(L.latLng(latlng[0], latlng[1])));
+}
+
+// update segmentlijst bij verschuiven/zoomen van kaart
+map.on("moveend", () => {
+  if(!activeSegment.getActive()){
+    const currentBounds = map.getBounds();
+    const visibleSegments = segmentCache.filter(seg => segmentInView(seg, currentBounds));
+    showSegmentList(visibleSegments, map, activeSegment);
+  }
+
+  segmentCache.forEach(seg => {
+      if(seg !== activeSegment.getActive()){
+        normalSegmentView(seg, map);
       }
+      else{
+        selectedSegmentView(seg, map);
+      }
+  });
+});
 
-      segmentCache.forEach(seg => {
-          if(seg !== activeSegment.getActive()){
-            normalSegmentView(seg, map);
-          }
-          else{
-            selectedSegmentView(seg, map);
-          }
-      });
+fetch("data/segment_data.json")
+    .then(res => res.json())
+    .then(segmenten => {
+
+    segmentCache = segmenten;
+    allLatLngs = [];
+
+    const segmentListDiv = document.getElementById("segment-details");
+    segmentListDiv.innerHTML = ""; // leegmaken
+
+    segmenten.forEach(seg => {
+
+        const latlngs = polyline.decode(seg.map.polyline);
+        allLatLngs.push(...latlngs); // voegt alle punten samen
+
+        initSegment(seg, map, latlngs, activeSegment);
     });
 
-    fetch("data/segment_data.json")
-        .then(res => res.json())
-        .then(segmenten => {
 
-        segmentCache = segmenten;
-        allLatLngs = [];
+    allBounds = L.latLngBounds(allLatLngs);
+    map.fitBounds(allBounds);
+    showSegmentList(segmentCache, map, activeSegment);
+});
+document.getElementById("close-btn").addEventListener("click", () => {
 
-        const segmentListDiv = document.getElementById("segment-details");
-        segmentListDiv.innerHTML = ""; // leegmaken
-
-        segmenten.forEach(seg => {
-
-            const latlngs = polyline.decode(seg.map.polyline);
-            allLatLngs.push(...latlngs); // voegt alle punten samen
-
-            initSegment(seg, map, latlngs, activeSegment);
-        });
+  closeSegment(activeSegment, map, segmentCache, allBounds);
+  
+});
 
 
-        allBounds = L.latLngBounds(allLatLngs);
-        map.fitBounds(allBounds);
-        showSegmentList(segmentCache, map, activeSegment);
-    });
-    document.getElementById("close-btn").addEventListener("click", () => {
 
-      closeSegment(activeSegment, map, segmentCache, allBounds);
-      
-    });
+//const handle = document.getElementById('drag-handle');
+//const sidebar = document.getElementById('sidebar');
+
+const handle = document.getElementById('drag-handle');
+const sidebar = document.getElementById('sidebar');
+
+
+if (window.innerWidth <= 600) {
+  document.getElementById('map').style.height =
+    `calc(100vh - ${sidebar.offsetHeight}px)`;
+  map.invalidateSize();
+}
+
+
+let isDragging = false;
+let startY = 0;
+let startHeight = 0;
+
+// This function will handle the movement
+const onPointerMove = (e) => {
+  if (!isDragging) return;
+  
+  const dy = startY - e.clientY;
+  let newHeight = startHeight + dy;
+  
+  // Constrain the new height
+  newHeight = Math.min(Math.max(newHeight, 50), window.innerHeight * 0.9);
+
+  sidebar.style.height = `${newHeight}px`;
+  document.getElementById('map').style.height = `calc(100vh - ${newHeight}px)`;
+  //map.invalidateSize();
+};
+
+// This function will stop the drag
+const onPointerUp = () => {
+  if (!isDragging) return;
+  
+  console.log("Drag end."); // DEBUGGING LINE
+  isDragging = false;
+  
+  document.removeEventListener('pointermove', onPointerMove);
+  document.removeEventListener('pointerup', onPointerUp);
+  
+  map.invalidateSize();
+};
+
+// This listener starts the drag
+handle.addEventListener('pointerdown', e => {
+  // Only run on "mobile" view
+  if (window.innerWidth > 600) {
+    return;
+  }
+  
+  
+  e.preventDefault();
+  
+  isDragging = true;
+  startY = e.clientY;
+  startHeight = sidebar.offsetHeight;
+  
+  document.addEventListener('pointermove', onPointerMove);
+  document.addEventListener('pointerup', onPointerUp);
+});

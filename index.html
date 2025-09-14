@@ -24,7 +24,6 @@
     }
     #map { 
       flex: 1; /* neemt alle resterende ruimte */
-      height: 100%;
     }
     /* Sidebar container */
     #sidebar {
@@ -62,11 +61,6 @@
       display: flex;
     }
 
-    #sidebar.active {
-      display: flex;
-      flex-direction: column; /* header boven segment-details */
-    }
-
     /* Sidebar header */
     #sidebar header {
       display: flex;
@@ -99,7 +93,7 @@
       font-size: 20px;
       color: #c00; /* donkerrood */
     }
-
+    
     #segment-details img {
       margin-top: 0.5rem;
       margin-bottom: 0.5rem;
@@ -116,7 +110,7 @@
       text-decoration: underline;
     }
 
-    .segment-block {
+    .segment-block-KOM {
       border-radius: 10px;
       border: 1px solid #ccc;
       padding: 0.5rem;
@@ -125,15 +119,122 @@
       transition: border 0.2s;
     }
 
-    .segment-block.hover {
-      border: 4px solid #c00; /* dikkere rode rand */
+    .segment-block-KOM.hover {
+      border: 4px solid #dca900; /* dikkere rode rand */
     }
+
+    .segment-block-KOM b1 {
+      font-size: 20px;
+      color: #dca900;
+      font-weight: bold;
+    }
+    
+    .segment-block-noKOM {
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      padding: 0.5rem;
+      margin-bottom: 0.5rem;
+      cursor: pointer;
+      transition: border 0.2s;
+    }
+
+    .segment-block-noKOM.hover {
+      border: 4px solid #000000; /* dikkere rode rand */
+    }
+
+    .segment-block-noKOM b1 {
+      font-size: 20px;
+      color: #000000;
+      font-weight: bold;
+    }
+    .drag-handle {
+      display: none; /* standaard uit op desktop */
+    }
+
+    /* Mobile view: scherm smaller dan bv 600px */
+@media (max-width: 600px) {
+
+  body {
+    flex-direction: column; /* sidebar onderaan */
+  }
+  #sidebar {
+    flex: none;
+    height: 200px;
+    width: 100%;            /* neemt volledige breedte */
+    border-left: none;
+    border-top: 1px solid #ccc;
+    box-shadow: 0 -3px 8px rgba(0,0,0,0.1);
+    overflow: hidden;     /* content verbergen als ingeklapt */
+    display: flex;
+    flex-direction: column;
+  }
+  #sidebar.list-mode {
+      flex: none;
+      width: flex;
+  }
+
+  #sidebar.list-mode #sidebar-header {
+    display: none;
+  }
+
+  /* Detailsmodus: breder, header zichtbaar */
+  #sidebar.details-mode {
+    flex: none;
+  }
+
+  #sidebar.details-mode #sidebar-header {
+    display: flex;
+  }
+
+  /* Sidebar header */
+  #sidebar header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  #sidebar header h2 {
+    font-size: 18px;
+    margin: 0;
+    color: #222;
+  }
+
+  #sidebar.active {
+    overflow-y: auto;
+  }
+  #drag-handle {
+    display: block;
+    width: 40px;
+    height: 16px;
+    margin: 6px auto;
+    border-radius: 8px;
+    background: repeating-linear-gradient(
+      to bottom,
+      #ccc,
+      #ccc 3px,
+      transparent 3px,
+      transparent 6px
+    );
+    cursor: grab;
+    flex-shrink: 0; /* Add this line */
+    touch-action: none; /* <-- ADD THIS LINE */
+  }
+  #map { 
+      flex: 1; /* neemt alle resterende ruimte */
+    }
+  #segment-details {
+    overflow-y: auto; /* Make this part scroll */
+    flex: 1;          /* Allow it to fill the remaining space */
+  }
+}
 
   </style>
 </head>
 <body>
   <div id="map"></div>
   <div id="sidebar">
+    <div id = "drag-handle" class="drag-handle"></div>
     <header id="sidebar-header">
       <h2>Segment Details</h2>
       <button id="close-btn">✖</button>
@@ -148,5 +249,6 @@
   <script src="https://unpkg.com/leaflet-polylinedecorator@1.7.0/dist/leaflet.polylineDecorator.min.js"></script>
 
   <script type="module" src="./main.js"></script>
+    
 </body>
 </html>

@@ -1,14 +1,21 @@
 export function createSegmentBlock(seg, map, activeSegment){
 
     const block = document.createElement("div");
-    block.classList.add("segment-block");
+    if(seg.kings_data.ourKOM){
+        block.classList.add("segment-block-KOM");
+    }
+    else{
+        block.classList.add("segment-block-noKOM");
+    }
+    
     block.innerHTML = `
-        <b>${seg.name}</b><br>
-        Average grade: ${(seg.average_grade).toFixed(1)}% <br>
-        Distance: ${(seg.distance / 1000).toFixed(1)} km<br>
-        Our time: NOG INVULLEN <br>
-        Location: ${seg.city}, ${seg.state}<br>
+        <b1>${seg.name}</b1><br>
+        ${(seg.average_grade).toFixed(1)}% - ${(seg.distance / 1000).toFixed(1)} km<br>
+        ${seg.city}, ${seg.state}<br>
     `;
+
+
+
     block.addEventListener("click", () => {
         selectSegment(seg, map, activeSegment);
     });
@@ -58,8 +65,6 @@ export function showSegmentDetails(seg){
         Location: ${seg.city}, ${seg.state}<br>
         <a href="https://www.strava.com/segments/${seg.id}" target="_blank">View on Strava</a>
         `;
-    
-    
 }
 
 function scrollBlockIntoView(seg) {
@@ -96,9 +101,7 @@ function selectSegment(seg, map, activeSegment){
 
         showSegmentDetails(seg);
 
-        map.fitBounds(polyline.decode(seg.map.polyline), { padding: [0, 50], animate: true });
-        
-        
+        map.fitBounds(polyline.decode(seg.map.polyline), {padding : [10, 50], animate: true });
         
     }
     
@@ -165,7 +168,7 @@ export function selectedSegmentView(seg, map){
  * @returns {object} - The style dict
  */
 function getSegmentStyle(seg) {
-    if (seg.kings_data.ourKOM.toLowerCase() == "ja") {
+    if (seg.kings_data.ourKOM) {
         return {
             line_color: 'gold',
             line_edge_color: 'black',
@@ -217,8 +220,6 @@ export function initSegment(seg, map, latlngs, activeSegment){
         weight: 6,         // dikte in pixels
         opacity: seg.style.line_opacity,      // transparantie
     }).addTo(map);
-
-    console.log("PolylineDecorator available?", L.polylineDecorator);
 
 
     const endLatLng = latlngs[latlngs.length -1]; // eerste punt van de polyline
