@@ -170,7 +170,6 @@
   }
   #sidebar.list-mode {
       flex: none;
-      width: flex;
   }
 
   #sidebar.list-mode #sidebar-header {
@@ -200,9 +199,6 @@
     color: #222;
   }
 
-  #sidebar.active {
-    overflow-y: auto;
-  }
   #drag-handle {
     display: block;
     width: 40px;
@@ -233,8 +229,9 @@
 </head>
 <body>
   <div id="map"></div>
+  <div id = "drag-handle" class="drag-handle"></div>
   <div id="sidebar">
-    <div id = "drag-handle" class="drag-handle"></div>
+    
     <header id="sidebar-header">
       <h2>Segment Details</h2>
       <button id="close-btn">✖</button>

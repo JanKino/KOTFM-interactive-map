@@ -114,7 +114,7 @@ const onPointerUp = () => {
   document.removeEventListener('pointermove', onPointerMove);
   document.removeEventListener('pointerup', onPointerUp);
   
-  map.invalidateSize();
+  //map.invalidateSize();
 };
 
 // This listener starts the drag

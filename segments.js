@@ -10,7 +10,7 @@ export function createSegmentBlock(seg, map, activeSegment){
     
     block.innerHTML = `
         <b1>${seg.name}</b1><br>
-        ${(seg.average_grade).toFixed(1)}% - ${(seg.distance / 1000).toFixed(1)} km<br>
+        ${(seg.distance / 1000).toFixed(1)}km - ${(seg.average_grade).toFixed(1)}%<br>
         ${seg.city}, ${seg.state}<br>
     `;
 
