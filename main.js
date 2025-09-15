@@ -70,7 +70,7 @@ document.getElementById("close-btn").addEventListener("click", () => {
   closeSegment(activeSegment, map, segmentCache, false);
   
 });
-
+/*test*/
 
 
 //const handle = document.getElementById('drag-handle');
