@@ -65,7 +65,7 @@ fetch("data/segment_data.json")
 });
 document.getElementById("close-btn").addEventListener("click", () => {
 
-  closeSegment(activeSegment, map, segmentCache, allBounds);
+  closeSegment(activeSegment, map, segmentCache, false);
   
 });
 
@@ -108,13 +108,11 @@ const onPointerMove = (e) => {
 const onPointerUp = () => {
   if (!isDragging) return;
   
-  console.log("Drag end."); // DEBUGGING LINE
   isDragging = false;
   
   document.removeEventListener('pointermove', onPointerMove);
   document.removeEventListener('pointerup', onPointerUp);
   
-  //map.invalidateSize();
 };
 
 // This listener starts the drag

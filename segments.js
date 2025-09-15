@@ -91,7 +91,10 @@ function selectSegment(seg, map, activeSegment){
         return;
     }
     if(activeSegment.getActive()){
-        closeSegment(activeSegment, map);
+        closeSegment(activeSegment, map, null, true);
+    }
+    else{
+        activeSegment.setViewBefore(map.getZoom(), map.getCenter());
     }
     if(!activeSegment.getActive()){
 
@@ -107,15 +110,21 @@ function selectSegment(seg, map, activeSegment){
     
 }
 
-export function closeSegment(activeSegment, map, segmentCache = null, allBounds = null){
+export function closeSegment(activeSegment, map, segmentCache = null, details_active = false){
     normalSegmentView(activeSegment.getActive(), map);
-    activeSegment.setActive(null);
     if(segmentCache){
         showSegmentList(segmentCache, map, activeSegment);
     }
+    if(!details_active){
+        map.setView(activeSegment.getViewBefore()[0], activeSegment.getViewBefore()[1], {animate: true});
+    }
+    
+    activeSegment.setActive(null);
+    /*
     if (allBounds) {
         map.fitBounds(allBounds, { padding: [25, 25], animate: true });
     }
+        */
 }
 
 function highlightSegment(seg, map){
@@ -278,6 +287,9 @@ export function initSegment(seg, map, latlngs, activeSegment){
 export class ActiveSegment{
     constructor(seg = null){
         this.seg = seg;
+
+        this.center_before =  null;
+        this.zoom_before = null;
     }
     setActive (seg){
         this.seg = seg;
@@ -285,5 +297,12 @@ export class ActiveSegment{
 
     getActive(){
         return this.seg;
+    }
+    setViewBefore(zoom, center){
+        this.center_before = center;
+        this.zoom_before = zoom;
+    }
+    getViewBefore(){
+        return [this.center_before, this.zoom_before];
     }
 }
