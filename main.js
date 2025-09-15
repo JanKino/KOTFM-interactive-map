@@ -4,6 +4,8 @@
 const map = L.map('map');
 
 
+
+
 // OpenStreetMap tiles toevoegen
 L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
   maxZoom: 19,
@@ -76,6 +78,11 @@ document.getElementById("close-btn").addEventListener("click", () => {
 
 const handle = document.getElementById('drag-handle');
 const sidebar = document.getElementById('sidebar');
+
+//mobile view
+if (window.innerWidth <= 600) {
+    sidebar.style.height = `200px`;
+}
 
 
 if (window.innerWidth <= 600) {

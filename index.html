@@ -205,6 +205,7 @@
     height: 20px;
     margin: 6px auto;
     border-radius: 8px;
+    position: relative; /* heel belangrijk */
     background: repeating-linear-gradient(
       to bottom,
       #ccc,
@@ -216,6 +217,16 @@
     flex-shrink: 0; /* Add this line */
     touch-action: none; /* <-- ADD THIS LINE */
   }
+  #drag-handle::after {
+    content: "";
+    position: absolute;
+    top: -20px;    /* steekt naar boven uit */
+    left: -20px;   /* steekt naar links uit */
+    right: -20px;  /* steekt naar rechts uit */
+    bottom: -25px; /* steekt naar onder uit */
+    cursor: inherit;
+  }
+
   #map { 
       flex: 1; /* neemt alle resterende ruimte */
     }
