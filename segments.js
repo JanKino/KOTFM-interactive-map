@@ -1,18 +1,24 @@
 export function createSegmentBlock(seg, map, activeSegment){
 
     const block = document.createElement("div");
+    block.classList.add("segment-block"); // altijd overkoepelend
     if(seg.kings_data.ourKOM){
-        block.classList.add("segment-block-KOM");
+        block.classList.add("KOM");
     }
     else{
-        block.classList.add("segment-block-noKOM");
+        block.classList.add("noKOM");
     }
     
-    block.innerHTML = `
-        <b1>${seg.name}</b1><br>
+    let html = `
+        <b>${seg.name}</b><br>
         ${(seg.distance / 1000).toFixed(1)}km - ${(seg.average_grade).toFixed(1)}%<br>
         ${seg.city}, ${seg.state}<br>
     `;
+
+    if(seg.kings_data.attempts.length > 0){
+        html += `<span class="bold">🎥 watch attempt</span>`;   
+    }
+    block.innerHTML = html;
 
 
 
@@ -31,7 +37,7 @@ export function createSegmentBlock(seg, map, activeSegment){
 export function showSegmentList(segmenten, map, activeSegment) {
     setSidebarMode('list-mode');
 
-    const segmentListDiv = document.getElementById("segment-details");
+    const segmentListDiv = document.getElementById("segment-list");
     segmentListDiv.innerHTML = ""; // leegmaken
 
     segmenten.forEach(seg => {
@@ -50,9 +56,21 @@ export function showSegmentList(segmenten, map, activeSegment) {
  * @description changes the sidebar mode, options: "list-mode", "details-mode"
  */
 function setSidebarMode(mode) {
-    const sidebar = document.getElementById('sidebar');
+    /*
+    const sidebar = document.getElementById('sidebar');*/
     sidebar.classList.remove('list-mode', 'details-mode');
     sidebar.classList.add(mode);
+
+    const listDiv = document.getElementById('segment-list');
+    const detailsDiv = document.getElementById('segment-details');
+
+    if(mode === 'list-mode') {
+        listDiv.style.display = 'block';
+        detailsDiv.style.display = 'none';
+    } else if(mode === 'details-mode') {
+        listDiv.style.display = 'none';
+        detailsDiv.style.display = 'block';
+    }
 }
 
 export function showSegmentDetails(seg){
@@ -171,11 +189,6 @@ export function closeSegment(activeSegment, map, segmentCache = null, details_ac
     }
     
     activeSegment.setActive(null);
-    /*
-    if (allBounds) {
-        map.fitBounds(allBounds, { padding: [25, 25], animate: true });
-    }
-        */
 }
 
 function highlightSegment(seg, map){
@@ -191,6 +204,10 @@ function highlightSegment(seg, map){
 
     seg.finishMarker.setIcon(seg.finishIconHighlight);
     seg.finishMarker.setZIndexOffset(1000);
+
+    if(seg.videoMarker){
+        seg.videoMarker.setIcon(seg.videoIconHighlight);
+    }
 }
 
 export function normalSegmentView(seg, map){
@@ -205,6 +222,10 @@ export function normalSegmentView(seg, map){
 
     seg.finishMarker.setIcon(seg.finishIconNormal);
     seg.finishMarker.setZIndexOffset(seg.style.base_z);
+
+    if(seg.videoMarker){
+        seg.videoMarker.setIcon(seg.videoIconNormal);
+    }
 }
 
 export function selectedSegmentView(seg, map){
@@ -305,6 +326,42 @@ export function initSegment(seg, map, latlngs, activeSegment){
         opacity: '0',
     }).addTo(map)
 
+    let hitboxes = [hitBox, finishMarker]
+
+    if(seg.kings_data.attempts.length > 0){
+        const startLatLng = latlngs[0];
+
+        // Normale video marker
+        const videoIconNormal = L.icon({
+            iconUrl: "images/video_camera.png",
+            className: 'video-marker',
+            iconSize: [22, 22],
+            iconAnchor: [12, 12]
+        });
+
+        // Highlight video marker (iets groter bv)
+        const videoIconHighlight = L.icon({
+            iconUrl: "images/video_camera.png",
+            className: 'video-marker highlight',
+            iconSize: [28, 28],
+            iconAnchor: [14, 14]
+        });
+
+        const videoMarker = L.marker(startLatLng, {
+            icon: videoIconNormal,
+            zIndexOffset: 150
+        }).addTo(map);
+
+        // Voeg toe aan hitboxes zodat hover/click werkt
+        hitboxes.push(videoMarker);
+
+        // Sla op in seg zodat highlight kan worden gebruikt
+        seg.videoMarker = videoMarker;
+        seg.videoIconNormal = videoIconNormal;
+        seg.videoIconHighlight = videoIconHighlight;
+
+    }
+
     seg.shadowLine = shadowLine;
     seg.visibleLine = visibleLine;
     seg.hitBox = hitBox;
@@ -312,8 +369,9 @@ export function initSegment(seg, map, latlngs, activeSegment){
     seg.finishIconHighlight = finishIconHighlight;
     seg.finishMarker = finishMarker;
 
+    
 
-    for (const layer of [hitBox, finishMarker]) {
+    for (const layer of hitboxes) {
         layer.on('mouseover', () => {
             if (seg !== activeSegment.getActive()) {
                 highlightSegment(seg, map);
