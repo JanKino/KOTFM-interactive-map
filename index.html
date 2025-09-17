@@ -87,13 +87,28 @@
     #close-btn:hover {
       color: #000;
     }
-
+  
     /* Segment details */
-    #segment-details b {
-      font-size: 20px;
-      color: #c00; /* donkerrood */
+    #segment-details {
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    #segment-details.no-kom b {
+      font-size: 24px;
+      color: rgb(0, 0, 0); 
+    }
+
+    #segment-details.kom b {
+      font-size: 24px;
+      color: goldenrod;
     }
     
+    #segment-details span.bold{
+      font-weight: bold;
+      color: black;
+    }
+
+
     #segment-details img {
       margin-top: 0.5rem;
       margin-bottom: 0.5rem;
@@ -102,8 +117,9 @@
 
     #segment-details a {
       text-decoration: none;
-      color: #0077cc;
+      color: rgb(209, 16, 16);
       font-weight: bold;
+      font-size: 18px;
     }
 
     #segment-details a:hover {
@@ -238,6 +254,7 @@
 
   </style>
 </head>
+<script async src="//www.instagram.com/embed.js"></script>
 <body>
   <div id="map"></div>
   <div id = "drag-handle" class="drag-handle"></div>

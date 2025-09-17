@@ -56,15 +56,66 @@ function setSidebarMode(mode) {
 }
 
 export function showSegmentDetails(seg){
+    const container = document.getElementById("segment-details");
+
+    // resetten
+    container.classList.remove("kom", "no-kom");
+
+    // juiste stijl toevoegen
+    if (seg.kings_data.ourKOM) {
+        container.classList.add("kom");
+    } else {
+        container.classList.add("no-kom");
+    }
+
+
     setSidebarMode('details-mode');
-    document.getElementById("segment-details").innerHTML = `
+    let html = `
         <b>${seg.name}</b><br>
         Average grade: ${(seg.average_grade).toFixed(1)}% <br>
         Distance: ${(seg.distance / 1000).toFixed(1)} km<br><br>
-        Best time (KOM): ${seg.xoms.kom}<br>
+        <span class="bold">Best time (KOM): ${seg.xoms.kom}</span><br>
         Location: ${seg.city}, ${seg.state}<br>
-        <a href="https://www.strava.com/segments/${seg.id}" target="_blank">View on Strava</a>
-        `;
+        <a href="https://www.strava.com/segments/${seg.id}" target="_blank">View on Strava</a><br><br>
+        `
+    if(seg.kings_data.ourKOM){
+        html += `
+        <span class = "bold">The KOM is ours!!</span><br>
+        `
+    }
+    else{
+        if(seg.kings_data.attempted){
+        html += `We tried to take this KOM, but someone else went faster. A new attempt might be coming soon!<br>
+            `
+            if(seg.kings_data.ourTime){
+                html+= `<span class = "bold">Our time: ${seg.kings_data.ourTime}</span><br>`;
+            }
+
+        }
+    }
+
+    seg.kings_data.attempts.forEach(attempt => {
+        html += `<br><span class = "bold">attempt ${attempt.poging_nr}</span>`
+        attempt.posts.forEach(post => {
+            if(post.beschrijving){
+                html += `<br>${post.beschrijving}<br>`
+            }
+            html += `
+            <blockquote class="instagram-media" 
+                    data-instgrm-permalink= "${post.instagram_link}"
+                    data-instgrm-version="14" 
+                    style="background:#FFF; border:0; margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%;">
+                    </blockquote>
+            `
+        })
+    })
+
+    document.getElementById("segment-details").innerHTML = html;
+
+    // Instagram embeds opnieuw verwerken:
+    if(window.instgrm) {
+        window.instgrm.Embeds.process();
+    }
 }
 
 function scrollBlockIntoView(seg) {
